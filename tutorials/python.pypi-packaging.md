@@ -2,6 +2,18 @@
 
 #### Contributed by [Steve Hudson](https://github.com/shuds13)
 
+1. [Introduction](#introduction)
+2. [What is pip?](#what-is-pip)
+3. [Creating a Python package](#creating-a-python-package)
+4. [Creating a source distribution](#creating-a-source-distribution)
+5. [Creating a wheel distribution](#creating-a-wheel-distribution)
+6. [Testing and Publishing package on PyPI](#testing-and-publishing-package-on-pypi)
+7. [Uploading to testpypi](#uploading-to-testpypi)
+8. [Uploading to PyPI](#uploading-to-pypi)
+9. [Example projects](#example-projects)
+10. [Feedback](#feedback)
+
+
 ### Introduction
 
 This is a quickstart guide to Python Packaging with a particular focus on the creation of a PyPI package, which will enable users to "pip install" the package. The document is broken down into sections so that readers may easily skips parts of the process they are already familiar with. All but the final section (Uploading to PyPI), can be undertaken as an exercise to understand Python packaging and test the process, without publishing a package on the formal PyPI distribution.
@@ -186,7 +198,7 @@ This creates a dist/ directory containing a compressed archive of the package (e
 Note: A <PACKAGE_NAME>.egg-info directory will also be created in your root directory containing meta-data about your distribution. This can safely be deleted if it is not wanted (despite the extension, this is generated even though you have not built an egg format package).
 
 
-### Creating a wheel (built) distribution
+### Creating a wheel distribution
 
 Optionally you may create a wheel distribution. This is a built distribution for the current platform. Wheels should be used in place of the older egg format. Bear in mind, any extensions will be built for the given platform and as such this must be consistent with any other project dependencies. Wheels will speed up installation if you have compiled code extensions as the build step is not required.
 
@@ -314,7 +326,7 @@ A small sample project using numpy and mpi4py (used as example above).
 
 Location:
 
-* Github: https://github.com/shuds13/pyexample
+* [Github](https://github.com/shuds13/pyexample)
  
 Note: To run the mpi4py test use at least 2 processors: 
 
@@ -325,8 +337,8 @@ An Argonne project that controls ensembles of calculations based on numerical op
 
 Location:
 
-* Github: https://github.com/Libensemble/libensemble
-* PyPI:   https://pypi.python.org/pypi/libensemble
+* [Github](https://github.com/Libensemble/libensemble)
+* [PyPI](https://pypi.python.org/pypi/libensemble)
 
 Related content includes:
 
