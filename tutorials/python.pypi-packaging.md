@@ -222,7 +222,7 @@ If it is not python2/3 compatible or contains compiled extensions just use:
 
 The installable wheel will be created under the dist/ directory. A build directory will also be created with the built code.
     
-Further details for building wheels can be found here: <https://packaging.python.org/tutorials/distributing-packages/#wheels>
+Further details for building wheels can be found here: <https://packaging.python.org/tutorials/distributing-packages>
 
 
 ### Testing and Publishing package on PyPI
