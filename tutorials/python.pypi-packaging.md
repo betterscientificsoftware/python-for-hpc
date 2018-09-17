@@ -199,7 +199,7 @@ Create a source distribution. From your root directory:
 
     python setup.py sdist
 
-This creates a dist/ directory containing a compressed archive of the package (e.g. <PACKAGE_NAME>-<VERSION>.tar.gz in Linux). This file is your source distribution - you can check it contains what you want. If it does not automatically contain what you want then you might want to use a MANIFEST file - see <https://docs.python.org/distutils/sourcedist.html>.
+This creates a dist/ directory containing a compressed archive of the package (e.g. <PACKAGE_NAME>-<VERSION>.tar.gz in Linux). This file is your source distribution - you can check it contains what you want. If it does not automatically contain what you want then you might want to use a MANIFEST file - see <https://docs.python.org/distutils/sourcedist>.
 
 Note: A <PACKAGE_NAME>.egg-info directory will also be created in your root directory containing meta-data about your distribution. This can safely be deleted if it is not wanted (despite the extension, this is generated even though you have not built an egg format package).
 
