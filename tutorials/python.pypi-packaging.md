@@ -199,9 +199,9 @@ Create a source distribution. From your root directory:
 
     python setup.py sdist
 
-This creates a dist/ directory containing a compressed archive of the package (e.g. <PACKAGE_NAME>-<VERSION>.tar.gz in Linux). This file is your source distribution - you can check it contains what you want. If it does not automatically contain what you want then you might want to use a MANIFEST file - see <https://docs.python.org/distutils/sourcedist>.
+This creates a dist/ directory containing a compressed archive of the package (e.g. `<PACKAGE_NAME>-<VERSION>`.tar.gz in Linux). This file is your source distribution. If it does not automatically contain what you want, then you might consider using a MANIFEST file (see <https://docs.python.org/distutils/sourcedist>).
 
-Note: A <PACKAGE_NAME>.egg-info directory will also be created in your root directory containing meta-data about your distribution. This can safely be deleted if it is not wanted (despite the extension, this is generated even though you have not built an egg format package).
+Note: A `<PACKAGE_NAME>`.egg-info directory will also be created in your root directory containing meta-data about your distribution. This can safely be deleted if it is not wanted (despite the extension, this is generated even though you have not built an egg format package).
 
 
 ### Creating a wheel distribution
@@ -222,10 +222,7 @@ If it is not python2/3 compatible or contains compiled extensions just use:
 
 The installable wheel will be created under the dist/ directory. A build directory will also be created with the built code.
     
-Further details for building wheels can be found here:
-https://packaging.python.org/tutorials/distributing-packages/#wheels
-
-<!-- I need to check this stuff as I don't normally build wheels py2/3 specific... etc. -->
+Further details for building wheels can be found here: <https://packaging.python.org/tutorials/distributing-packages/#wheels>
 
 
 ### Testing and Publishing package on PyPI
@@ -322,7 +319,7 @@ Or just the package without dependencies:
 
     pip download --no-deps pyexample
 
-Downloading the source distribution is a good way to check that it includes what you want by default. If not, then consider adding a MANIFEST file, which instructs setuptools what to include in the source distribution.
+Downloading the source distribution is a good way to check that it includes what you want by default. If not, then consider adding a [MANIFEST](https://docs.python.org/distutils/sourcedist) file, which instructs setuptools what to include in the source distribution.
 
 
 ### Example projects
@@ -353,7 +350,7 @@ Related content includes:
 
  - setup.py includes mapping a different source directory structure to
    packages and sub-packages using the package_dir setup argument.
-   
+
  - Use  of a MANIFEST file to specify source distribution.
 
 <!-- Other examples - maybe more mature packages like mpi4py/petsc4py -->
