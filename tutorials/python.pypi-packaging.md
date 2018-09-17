@@ -178,7 +178,7 @@ If you now pip install again and run the Python interpreter you should be able t
     >>> pyexample.__credits__
     'Argonne National Laboratory'    
 
-This does create the problem of having two places holding the version, which must also match any release tags created (eg. in git). Various approaches exist for using a single version number. See [https://packaging.python.org/guides/single-sourcing-package-version "single-sourcing-package-version"]
+This does create the problem of having two places holding the version, which must also match any release tags created (eg. in git). Various approaches exist for using a single version number. See <https://packaging.python.org/guides/single-sourcing-package-version>
 
 If you wish to create sub-packages, these should ideally be directories inside the main package (Re-mapping from other locations is possible using the package_dir argument in setup but this can cause a [problem with develop installs](https://github.com/pypa/pip/issues/3160). The sub-packages also require an \__init__.py in the directory.
 
