@@ -10,8 +10,9 @@
 6. [Testing and Publishing package on PyPI](#testing-and-publishing-package-on-pypi)
 7. [Uploading to testpypi](#uploading-to-testpypi)
 8. [Uploading to PyPI](#uploading-to-pypi)
-9. [Example projects](#example-projects)
-10. [Feedback](#feedback)
+9. [Downloading tarball without install](#downloading-tarball-without-install)
+10. [Example projects](#example-projects)
+11. [Feedback](#feedback)
 
 
 ### Introduction
@@ -46,6 +47,11 @@ Note: pip3 is used to install Python3 packages, however in some environments the
 This is essentially trying to install a version that does not exist and causes pip to list available versions.
 
 
+**Tip**: To see what version is currently installed:
+
+    pip search mpi4py
+
+
 Package information, including install location, can be obtained by running the Python interpreter:
 
     $ python
@@ -59,7 +65,7 @@ Package information, including install location, can be obtained by running the 
     '/home/shudson/miniconda3/lib/python3.6/site-packages/mpi4py/__init__.py'
 
 
-Installing pip is easy: https://pip.pypa.io/en/stable/installing/
+Installing pip is easy: <https://pip.pypa.io/en/stable/installing>
 
 
 ### Creating a Python package
@@ -172,9 +178,9 @@ If you now pip install again and run the Python interpreter you should be able t
     >>> pyexample.__credits__
     'Argonne National Laboratory'    
 
-This does create the problem of having two places holding the version, which must also match any release tags created (eg. in git). Various approaches exist for using a single version number. https://packaging.python.org/guides/single-sourcing-package-version/
+This does create the problem of having two places holding the version, which must also match any release tags created (eg. in git). Various approaches exist for using a single version number. See [https://packaging.python.org/guides/single-sourcing-package-version "single-sourcing-package-version"]
 
-If you wish to create sub-packages, these should ideally be directories inside the main package (Re-mapping from other locations is possible using the package_dir argument in setup but this can cause a problem with [develop installs](https://github.com/pypa/pip/issues/3160). The sub-packages also require an \__init__.py in the directory.
+If you wish to create sub-packages, these should ideally be directories inside the main package (Re-mapping from other locations is possible using the package_dir argument in setup but this can cause a [problem with develop installs](https://github.com/pypa/pip/issues/3160). The sub-packages also require an \__init__.py in the directory.
 
  
 ### Creating a source distribution
@@ -193,7 +199,7 @@ Create a source distribution. From your root directory:
 
     python setup.py sdist
 
-This creates a dist/ directory containing a compressed archive of the package (e.g. <PACKAGE_NAME>-<VERSION>.tar.gz in Linux). This file is your source distribution - you can check it contains what you want. If it does not automatically contain what you want then you might want to use a [MANIFEST](https://docs.python.org/3/distutils/sourcedist.html) file.
+This creates a dist/ directory containing a compressed archive of the package (e.g. <PACKAGE_NAME>-<VERSION>.tar.gz in Linux). This file is your source distribution - you can check it contains what you want. If it does not automatically contain what you want then you might want to use a [Manifest](https://docs.python.org/3/distutils/sourcedist.html) file.
 
 Note: A <PACKAGE_NAME>.egg-info directory will also be created in your root directory containing meta-data about your distribution. This can safely be deleted if it is not wanted (despite the extension, this is generated even though you have not built an egg format package).
 
@@ -229,12 +235,12 @@ Distributing the package on PyPI will enable anyone on-line to pip install the p
 First you must set up an account on PyPI. If you are going to test your package on the PyPI test site you will need to set up an account there also. This is easy.
 
 Create an account on PYPI:
-Go to: https://pypi.python.org and select Register. Follow instructions.
+Go to: <https://pypi.python.org> and select Register. Follow instructions.
 
 Create an account on testpypi:
-Go to: https://testpypi.python.org and select Register. Follow instructions.
+Go to: <https://testpypi.python.org> and select Register. Follow instructions.
 
-You will also need a version number. Semantic versioning is recommended (see https://semver.org/ for details). The standard starting version for a project in development is 0.1.0.
+You will also need a version number. Semantic versioning is recommended (see <https://semver.org> for details). The standard starting version for a project in development is 0.1.0.
 
 The best approach to uploading to PyPI  is to use twine.
 
@@ -247,12 +253,12 @@ IMPORTANT: First you can test your upload using the PyPI test site. It is highly
 
 This section shows how to upload a source distribution of your package.
 
-Further documentation at: https://packaging.python.org/guides/using-testpypi/
+Further documentation at: <https://packaging.python.org/guides/using-testpypi>
 Note: This link includes the option of using a pypirc file to abbreviate some of the command lines below.
 
 A source distribution provides everything needed to build/install the package on any supported platform. Testsuites, documentation and supporting data can also be included.
 
-You can now upload your package to testpypi as follows. Assuming your source distribution under dist is called pyexample-0.1.0.tar.gz:
+You can now upload your package to testpypi as follows. Assuming your source distribution under *dist/* is called *pyexample-0.1.0.tar.gz*:
 
     twine upload --repository-url https://test.pypi.org/legacy/ dist/pyexample-0.1.0.tar.gz
 
@@ -276,25 +282,13 @@ A file pyexample-0.1.0.tar.gz.asc will be created. Now upload:
 Note: `--detach-sign` means you are writing the signature into a separate file *.asc
 
 
-The package should now be uploaded to: https://testpypi.python.org/pypi
+The package should now be uploaded to: <https://testpypi.python.org/pypi>
 
 Note how the info/classifiers you supplied in setup.py are shown on the page.
 
 You can now test pip install from the command line. E.g. To install package pyexample into your user install space:
 
     pip install --index-url https://test.pypi.org/simple/ pyexample --user
-
-To test downloading a source distribution (no install) with dependencies:
-
-    pip download pyexample
-
-Or just the package without dependencies:
-
-    pip download --no-deps pyexample
-
-Downloading the source distribution is a good way to check that it includes what you want by default. If not, then consider adding a MANIFEST file, which instructs setuptools what to include in the source distribution.
-
-It is also recommended that you use virtual environments to test installing dependencies from scratch and for trying out different python versions. Check required flags to ensure your environment is isolated. E.g. For Virtualenv use the flag `--no-site-packages`. For Conda, set the environment variable `export PYTHONNOUSERSITE=1` before activating you environment. Packages that are explicitly linked through PYTHONPATH will still be found however.
 
 
 #### Uploading to PyPI
@@ -309,11 +303,26 @@ E.g. To upload the source distribution with a gpg signature:
 
     twine upload dist/pyexample-0.1.0.tar.gz pyexample-0.1.0.tar.gz.asc
 
-You package should now be uploaded to: https://pypi.python.org/pypi
+You package should now be uploaded to: <https://pypi.python.org/pypi>
 
 The package should pip install. E.g:
 
     pip install pyexample --user
+
+It is also recommended that you use virtual environments to test installing dependencies from scratch and for trying out different python versions. Check required flags to ensure your environment is isolated. E.g. For Virtualenv use the flag `--no-site-packages`. For Conda, set the environment variable `export PYTHONNOUSERSITE=1` before activating you environment. Packages that are explicitly linked through PYTHONPATH will still be found however.
+
+
+#### Downloading tarball without install
+    
+To test downloading a source distribution (no install) with dependencies:
+
+    pip download pyexample
+
+Or just the package without dependencies:
+
+    pip download --no-deps pyexample
+
+Downloading the source distribution is a good way to check that it includes what you want by default. If not, then consider adding a MANIFEST file, which instructs setuptools what to include in the source distribution.
 
 
 ### Example projects
@@ -333,7 +342,7 @@ Note: To run the mpi4py test use at least 2 processors:
 *  `mpiexec -np 2 python module_mpi4py_1.py`
 
 #### libEnsemble:
-An Argonne project that controls ensembles of calculations based on numerical optimization.
+An Argonne project for running ensembles of calculations.
 
 Location:
 
