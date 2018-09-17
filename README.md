@@ -12,8 +12,9 @@ Tips on Python for Scientific Computing:
 
 Presentations:
  - [ECP Python Tutorial 2018](https://github.com/wscullin/ecp_python_tutorial/blob/master/slides/ECP_Python_Tutorial_2018.pdf)
- - [Python in HPC Webinar (See Webinar No. 8)](https://ideas-productivity.org/events/hpc-best-practices-webinars/) 
- 
+ - [HPC Python Testing and Debugging Tutorial 2018](https://github.com/wscullin/ecp_python_tutorial/blob/master/slides/debugging_slides.pdf)
+ - [Python in HPC Webinar (See Webinar No. 8)](https://ideas-productivity.org/events/hpc-best-practices-webinars/)
+
 Python resources for computational scientists:
  - [XSD Python Training Home](https://confluence.aps.anl.gov/display/XSDPT/XSD+Python+Training+Home)
  - [On-demand learning for Python - using a Transmedia Learning Framework](https://bssw.io/resources/transmedia-learning-frameworks-tlf)
