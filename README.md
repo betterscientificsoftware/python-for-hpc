@@ -9,7 +9,10 @@ Tutorials:
 Presentations:
  - [ECP Python Tutorial 2018](https://github.com/wscullin/ecp_python_tutorial/blob/master/slides/ECP_Python_Tutorial_2018.pdf)
  - [HPC Python Testing and Debugging Tutorial 2018](https://github.com/wscullin/ecp_python_tutorial/blob/master/slides/debugging_slides.pdf)
- - [Python in HPC Webinar (See Webinar No. 8)](https://ideas-productivity.org/events/hpc-best-practices-webinars/)
+ 
+Webinars:
+ - [Python in HPC Webinar 2017 (See Webinar No. 8)](https://ideas-productivity.org/events/hpc-best-practices-webinars) 
+ - [Jupyter and HPC: Current State and Future Roadmap 2018 (Webinar No.15)](https://ideas-productivity.org/events/hpc-best-practices-webinars) 
 
 Tips on Python for Scientific Computing:
  - [Interrogating NumPy Configuration/Compiler Options](tutorials/interrogating_numpy.md)
