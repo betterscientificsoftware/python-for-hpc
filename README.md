@@ -12,6 +12,8 @@ Quick-start Guides:
 Presentations:
  - [ECP Python Tutorial 2018](https://github.com/wscullin/ecp_python_tutorial/blob/master/slides/ECP_Python_Tutorial_2018.pdf)
  - [HPC Python Testing and Debugging Tutorial 2018](https://github.com/wscullin/ecp_python_tutorial/blob/master/slides/debugging_slides.pdf)
+ - [Analyzing Python Performance with Intel VTune (2017)](https://www.alcf.anl.gov/files/Tullos-Analyzing_Python_Performance.pdf)
+ - [Using and Scaling Python (ALCF Simulation, Data, and Learning Workshop 2018)](https://www.alcf.anl.gov/files/Scullin-Pavlyk%20_SDL2018_Python.pdf) William Scullin (ALCF) and Oleksandr Pavlyk (Intel)
 
 Webinars:
  - [Python in HPC Webinar 2017 (See Webinar No. 8)](https://ideas-productivity.org/events/hpc-best-practices-webinars) 
