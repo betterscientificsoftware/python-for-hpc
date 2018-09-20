@@ -10,10 +10,10 @@ Quick-start Guides:
  - [Documenting with Sphinx](tutorials/python.doc-sphinx.md)
 
 Presentations:
- - [ECP Python Tutorial 2018](https://github.com/wscullin/ecp_python_tutorial/blob/master/slides/ECP_Python_Tutorial_2018.pdf)
- - [HPC Python Testing and Debugging Tutorial 2018](https://github.com/wscullin/ecp_python_tutorial/blob/master/slides/debugging_slides.pdf)
- - [Analyzing Python Performance with Intel VTune (2017)](https://www.alcf.anl.gov/files/Tullos-Analyzing_Python_Performance.pdf)
- - [Using and Scaling Python (ALCF Simulation, Data, and Learning Workshop 2018)](https://www.alcf.anl.gov/files/Scullin-Pavlyk%20_SDL2018_Python.pdf) William Scullin (ALCF) and Oleksandr Pavlyk (Intel)
+ - [Python for Hight Performance Computing](https://github.com/wscullin/ecp_python_tutorial/blob/master/slides/ECP_Python_Tutorial_2018.pdf) ECP Annual Meeting 2018. William Scullin (ALCF), Matt Belhorn (OLCF) and Rollin Thomas (NERSC)
+ - [HPC Python Testing and Debugging Tutorial 2018](https://github.com/wscullin/ecp_python_tutorial/blob/master/slides/debugging_slides.pdf) ECP Annual Meeting 2018. Matt Belhorn (OLCF), William Scullin (ALCF), Rollin Thomas (NERSC) 
+ - [Analyzing Python Performance with Intel VTune](https://www.alcf.anl.gov/files/Tullos-Analyzing_Python_Performance.pdf) 2017 Intel presentation.
+ - [Using and Scaling Python](https://www.alcf.anl.gov/files/Scullin-Pavlyk%20_SDL2018_Python.pdf) ALCF Simulation, Data, and Learning Workshop 2018. William Scullin (ALCF) and Oleksandr Pavlyk (Intel)
 
 Webinars:
  - [Python in HPC Webinar 2017 (See Webinar No. 8)](https://ideas-productivity.org/events/hpc-best-practices-webinars) 
@@ -37,6 +37,9 @@ Scientific Libraries:
  - [PyTrilinos](https://trilinos.org/packages/pytrilinos/) A set of python wrappers for selected Trilinos packages
  - [libEnsemble](https://libensemble.readthedocs.io) Library for managing ensemble-like collections of computations.
  
+Conferences:
+ - [SciPy 2018 Videos](https://www.youtube.com/playlist?list=PLYx7XA2nY5Gd-tNhm79CNMe_qvi35PgUR)
+ - PyHPC Workshop 2018 (Part of SC18) [Announcements](https://twitter.com/pythonhpc?lang=en) [Register](https://www.dlr.de/sc/desktopdefault.aspx/tabid-12954/22625_read-52397/)
  
 Find more software engineering materials for computational scientists at the [Better Scientific Software](https://bssw.io/) website.
 
