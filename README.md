@@ -50,7 +50,16 @@ the ECP and broader scientific community. It is part of the [IDEAS-ECP](https://
 
 #### I/O:
  - [h5py](https://www.h5py.org/) The h5py package is a Pythonic interface to the HDF5 binary data format.
+
  
+### Python on Accelerators
+
+ - [Numba](https://numba.pydata.org/) Numba is an open source JIT compiler that translates a subset of Python and NumPy code into fast machine code (Mark hotspot functions with decorators and they are compiled.). Numba supports Intel and AMD x86, POWER8/9, and ARM CPUs, NVIDIA and AMD GPUs. Relies on decorators to identify code sections to accelerate. Requires LLVM. Works with the standard CPython.  [Accelerating Python with the Numba (Video)](https://www.youtube.com/watch?v=eYIPEDnp5C4)
+ - [PyCUDA](https://documen.tician.de/pycuda/tutorial.html)
+   PyCUDA lets you access Nvidia's CUDA parallel computation API from Python.
+ - [PyOpenCL](https://documen.tician.de/pyopencl/index.html)
+   PyOpenCL lets you access the OpenCL parallel computation API from Python
+
 
 ### Ensemble and Workflow tools
  
@@ -59,11 +68,13 @@ the ECP and broader scientific community. It is part of the [IDEAS-ECP](https://
  - [libEnsemble](https://libensemble.readthedocs.io) Library for dynamic ensembles using generator and simulator functions (e.g. using numerical optimization).
 
 
-### Conferences
+### Conferences and Events
  - [SciPy 2018 Videos](https://www.youtube.com/playlist?list=PLYx7XA2nY5Gd-tNhm79CNMe_qvi35PgUR)
+ - [ALCF Simulation, Data and Learning Workshop 2018](https://www.alcf.anl.gov/workshops/sdl-workshop-oct2018) Includes slides for many relevant presentations.
  - PyHPC Workshop 2018 (In conjunction with SC18) [Announcements](https://twitter.com/pythonhpc?lang=en) [Register](https://www.dlr.de/sc/desktopdefault.aspx/tabid-12954/22625_read-52397/)
  
 Find more software engineering materials for computational scientists at the [Better Scientific Software](https://bssw.io/) website.
+
 
 ### Feedback
 
