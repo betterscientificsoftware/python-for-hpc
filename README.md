@@ -49,10 +49,16 @@ the ECP and broader scientific community. It is part of the [IDEAS-ECP](https://
 #### I/O:
  - [h5py](https://www.h5py.org/) The h5py package is a Pythonic interface to the HDF5 binary data format.
 
+
+### Speeding up Python
+ - [Cython](http://cython.org/) Create C code from modified Python. Enables performance and threading [Beginners video](https://www.youtube.com/watch?v=NfnMJMkhDoQ&list=PLhsR3m5MO5X6T4Bs_9h1azJoQ9srQmQAC)
+ - [PyPy](https://pypy.org/) Implementation of the Python language that JIT compiles for performance. No code changes required.
+ - [Numba](https://numba.pydata.org/) Numba is an open source JIT compiler that translates a subset of Python and NumPy code into fast machine code. Numba supports Intel and AMD x86, POWER8/9, and ARM CPUs, NVIDIA and AMD GPUs. Relies on decorators to identify code sections to accelerate. Requires LLVM for compiler, but works with the standard CPython.  [Accelerating Python with the Numba (Video)](https://www.youtube.com/watch?v=eYIPEDnp5C4) 
+ - Note: A growing alternative to Python is the compiled language [Julia](https://julialang.org/)
+ 
  
 ### Python on Accelerators
-
- - [Numba](https://numba.pydata.org/) Numba is an open source JIT compiler that translates a subset of Python and NumPy code into fast machine code (Mark hotspot functions with decorators and they are compiled.). Numba supports Intel and AMD x86, POWER8/9, and ARM CPUs, NVIDIA and AMD GPUs. Relies on decorators to identify code sections to accelerate. Requires LLVM. Works with the standard CPython.  [Accelerating Python with the Numba (Video)](https://www.youtube.com/watch?v=eYIPEDnp5C4)
+ - [Numba](https://numba.pydata.org/) supports GPUS (see desciprtion above). 
  - [PyCUDA](https://documen.tician.de/pycuda/tutorial.html)
    PyCUDA lets you access Nvidia's CUDA parallel computation API from Python.
  - [PyOpenCL](https://documen.tician.de/pyopencl/index.html)
@@ -73,6 +79,9 @@ the ECP and broader scientific community. It is part of the [IDEAS-ECP](https://
  
 Find more software engineering materials for computational scientists at the [Better Scientific Software](https://bssw.io/) website.
 
+
+### Alternatives to Python
+ - [Julia](https://julialang.org/) A scripting like language that compiles to efficient native code for multiple platforms via LLVM.
 
 ### Feedback
 
