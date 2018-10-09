@@ -26,7 +26,10 @@ the ECP and broader scientific community. It is part of the [IDEAS-ECP](https://
  - [SciPy Lectures](http://www.scipy-lectures.org/) A community-based series of tutorials.
  - On-demand learning for Python - using a Transmedia Learning Framework [Webinar](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar018) [Python TLF](https://bssw.io/resources/transmedia-learning-frameworks-tlf)
 
- 
+### Scientific Notebooks
+ - [Jupyter Notebooks](http://jupyter.org/) The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. [Beginner's Video](https://www.youtube.com/watch?v=HW29067qVWk&t=1009s)
+
+
 ### Scientific Libraries
 
 #### Scientific computing packages in Python (running C extensions):
@@ -64,9 +67,9 @@ the ECP and broader scientific community. It is part of the [IDEAS-ECP](https://
  - [ctypes](https://docs.python.org/3/library/ctypes.html) – built-in Python FFI for interfacing C
  
  - Recommended reading: [Python modules in C](http://dan.iel.fm/posts/python-c-extensions)
- 
+
 ### Python on Accelerators
- - [Numba](https://numba.pydata.org/) supports GPUS (see desciprtion above). 
+ - [Numba](https://numba.pydata.org/) supports GPUS (see description above). 
  - [PyCUDA](https://documen.tician.de/pycuda/tutorial.html)
    PyCUDA lets you access Nvidia's CUDA parallel computation API from Python.
  - [PyOpenCL](https://documen.tician.de/pyopencl/index.html)
