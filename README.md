@@ -24,7 +24,7 @@ the ECP and broader scientific community. It is part of the [IDEAS-ECP](https://
 ### Python resources for computational scientists
  - [XSD Python Training Home: Python lecture/video series for Scientists](https://confluence.aps.anl.gov/display/XSDPT/XSD+Python+Training+Home) (From Argonne APS) Recommended as an introductory course for scientists.
  - [SciPy Lectures](http://www.scipy-lectures.org/) A community-based series of tutorials.
- - [On-demand learning for Python - using a Transmedia Learning Framework](https://bssw.io/resources/transmedia-learning-frameworks-tlf)
+ - On-demand learning for Python - using a Transmedia Learning Framework [Webinar](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar018) [Python TLF](https://bssw.io/resources/transmedia-learning-frameworks-tlf)
 
  
 ### Scientific Libraries
