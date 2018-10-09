@@ -55,7 +55,15 @@ the ECP and broader scientific community. It is part of the [IDEAS-ECP](https://
  - [PyPy](https://pypy.org/) Implementation of the Python language that JIT compiles for performance. No code changes required.
  - [Numba](https://numba.pydata.org/) Numba is an open source JIT compiler that translates a subset of Python and NumPy code into fast machine code. Numba supports Intel and AMD x86, POWER8/9, and ARM CPUs, NVIDIA and AMD GPUs. Relies on decorators to identify code sections to accelerate. Requires LLVM for compiler, but works with the standard CPython.  [Accelerating Python with Numba (Video)](https://www.youtube.com/watch?v=eYIPEDnp5C4) 
  - Note: A growing alternative to speeding up Python is the compiled language [Julia](https://julialang.org/)
+
+#### Or to create your own Python bindings to compiled code:
+ - [SWIG](http://www.swig.org/) – Generate bindings to C/C++. Works with Python and other high level languages.
+ - [F2PY](https://docs.scipy.org/doc/numpy-1.15.0/f2py/index.html) – Create Python interfaces to Fortran (part of NumPy).
+ - [PyBind11](https://pybind11.readthedocs.io/en/master/) – “seamless operability between C++11 and Python”
+ - [Boost.Python](https://www.boost.org/doc/libs/1_68_0/libs/python/doc/html/index.html) – “seamless operability between C++ and Python”
+ - [ctypes](https://docs.python.org/3/library/ctypes.html) – built-in Python FFI for interfacing C
  
+ - Recommended reading: [Python modules in C](http://dan.iel.fm/posts/python-c-extensions)
  
 ### Python on Accelerators
  - [Numba](https://numba.pydata.org/) supports GPUS (see desciprtion above). 
