@@ -17,12 +17,18 @@ the ECP and broader scientific community. It is part of the [IDEAS-ECP](https://
  - [Python in HPC Webinar 2017](https://www.exascaleproject.org/event/python-in-hpc-2) 
  - [Jupyter and HPC Webinar](https://www.exascaleproject.org/event/jupyter) Current State and Future Roadmap 2018
 
+ 
+### Coding Standards and style
+ - [YAPF](https://github.com/google/yapf) "Yet Another Python Formatter" Auto-formats Python to style-guides (select from built-in styles PEP8(default), Google, Chromium, Facebook). Also customisable.
+ [Try online](https://yapf.now.sh/)
+
+ 
 ### Tips on Python for Scientific Computing
  - [Interrogating NumPy Configuration/Compiler Options](tutorials/interrogating_numpy.md)
  - [Links for moving from Matlab to NumPy](tutorials/matlab-numpy-conversion.md)
  
 ### Python resources for computational scientists
- - [XSD Python Training Home: Python lecture/video series for Scientists](https://confluence.aps.anl.gov/display/XSDPT/XSD+Python+Training+Home) (From Argonne APS) Recommended as an introductory course for scientists.
+ - [XSD Python lecture/video series for Scientists](https://confluence.aps.anl.gov/display/XSDPT/XSD+Python+Training+Home) (From Argonne APS) Recommended as an introductory course for scientists.
  - [SciPy Lectures](http://www.scipy-lectures.org/) A community-based series of tutorials.
  - On-demand learning for Python - using a Transmedia Learning Framework [Webinar](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar018) [Python TLF](https://bssw.io/resources/transmedia-learning-frameworks-tlf)
 
@@ -77,7 +83,6 @@ the ECP and broader scientific community. It is part of the [IDEAS-ECP](https://
 
 
 ### Ensemble and Workflow tools
- 
  - [Parsl](http://parsl-project.org) Use Parsl with Jupyter notebooks to scale interactive analyses from laptops to supercomputers. [video](https://www.youtube.com/watch?v=tHTt0Pyb4_M)
  - [Balsam](https://www.alcf.anl.gov/balsam) Workflow system for managing large campaigns of interdependent jobs (unlimited queue depth). Balsam manages a database of jobs, with specified dependences. Jobs can be added to the database from anywhere on the system, for dynamic workflows.
  - [libEnsemble](https://libensemble.readthedocs.io) Library for dynamic ensembles using generator and simulator functions (e.g. using numerical optimization).
