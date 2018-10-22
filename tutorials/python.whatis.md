@@ -21,7 +21,7 @@ By default, the bytecode is kept after the first time it is compiled. These will
 
 While CPython runs as a bytecode interpreter, the Python language, like any language, can be compiled, and alternatives to CPython exist (see below). None of these have become as popular as CPython, however, which is ubiquitous and works well with the large resource of C extensions.
 
-Python3 is recommended for new users, although there is still considerable use of Python2. The latest version of Python2 was 2.7. Many new features are added to Python3 regularly and all major libraries now work under Python3.5+.
+Python3 is recommended for new users, although there is still considerable use of Python2. The latest version of Python2 is 2.7. Python2 is due to be offically maintained until 1st January 2020. Many new features are added to Python3 regularly and all major libraries now work under Python3.5+.
 
 
 ### Rapid development
