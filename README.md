@@ -21,7 +21,10 @@ the ECP and broader scientific community. It is part of the [IDEAS-ECP](https://
 ### Coding Standards and style
  - [YAPF](https://github.com/google/yapf) "Yet Another Python Formatter" Auto-formats Python to style-guides (select from built-in styles PEP8(default), Google, Chromium, Facebook). Also customisable.
  [Try online](https://yapf.now.sh/)
-
+ 
+### Design Patterns
+"Design Patterns are general, repeatable solutions to common recurring problems in software development." [From Wikipedia, the free encyclopedia, "Design pattern (computer science)"].
+ - [python-patterns](https://github.com/faif/python-patterns) A collection of design patterns and idioms in Python with coded examples.
  
 ### Tips on Python for Scientific Computing
  - [Interrogating NumPy Configuration/Compiler Options](tutorials/interrogating_numpy.md)
