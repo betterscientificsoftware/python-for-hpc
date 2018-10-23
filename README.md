@@ -25,7 +25,7 @@ the ECP and broader scientific community. It is part of the [IDEAS-ECP](https://
 ### Design Patterns
 "Design Patterns are general, repeatable solutions to common recurring problems in software development." [From Wikipedia, the free encyclopedia, "Design pattern (computer science)"].
  - [python-patterns](https://github.com/faif/python-patterns) A collection of design patterns and idioms in Python with coded examples.
- 
+
 ### Tips on Python for Scientific Computing
  - [Interrogating NumPy Configuration/Compiler Options](tutorials/interrogating_numpy.md)
  - [Links for moving from Matlab to NumPy](tutorials/matlab-numpy-conversion.md)
@@ -34,6 +34,7 @@ the ECP and broader scientific community. It is part of the [IDEAS-ECP](https://
  - [XSD Python lecture/video series for Scientists](https://confluence.aps.anl.gov/display/XSDPT/XSD+Python+Training+Home) (From Argonne APS) Recommended as an introductory course for scientists.
  - [SciPy Lectures](http://www.scipy-lectures.org/) A community-based series of tutorials.
  - On-demand learning for Python - using a Transmedia Learning Framework [Webinar](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar018) [Python TLF](https://bssw.io/resources/transmedia-learning-frameworks-tlf)
+ - [MolSSI institue Best Practices](https://molssi.org/education/best-practices) A concise set of best practices that apply to all scientfic software. [Webinar](https://www.youtube.com/watch?v=44ryG3PHIew)
 
 ### Scientific Notebooks
  - [Jupyter Notebooks](http://jupyter.org/) The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. [Beginner's Video](https://www.youtube.com/watch?v=HW29067qVWk&t=1009s)
