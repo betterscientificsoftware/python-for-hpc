@@ -38,8 +38,9 @@ the ECP and broader scientific community. It is part of the [IDEAS-ECP](https://
 
 ### Scientific Notebooks
  - [Jupyter Notebooks](http://jupyter.org/) The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. [Beginner's Video](https://www.youtube.com/watch?v=HW29067qVWk&t=1009s)
+ 
 #### Examples:
- - [Electrostatics loop example](notebooks/Compiled_Examples.ipynb) An simple electrostatics loop implemented using pure Python, NumPy, Cython, Numba (inc GPU version)  with timings.
+ - [Electrostatics loop example](notebooks/Compiled_Examples.ipynb) An simple electrostatics loop implemented using pure Python, NumPy, Cython, Numba (inc GPU version) with timings. Contributed by Daniel Smith (MolSSI).
 
 ### Scientific Libraries
 
