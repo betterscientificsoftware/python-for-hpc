@@ -15,8 +15,6 @@ the ECP and broader scientific community. It is part of the [IDEAS-ECP](https://
  - [Analyzing Python Performance with Intel VTune](https://www.alcf.anl.gov/files/Tullos-Analyzing_Python_Performance.pdf) 2017 Intel presentation.
  - [Using and Scaling Python](https://www.alcf.anl.gov/files/Scullin-Pavlyk%20_SDL2018_Python.pdf) ALCF Simulation, Data, and Learning Workshop 2018. William Scullin (ALCF) and Oleksandr Pavlyk (Intel)
  - [Python in HPC Webinar 2017](https://www.exascaleproject.org/event/python-in-hpc-2) 
- - [Jupyter and HPC Webinar](https://www.exascaleproject.org/event/jupyter) Current State and Future Roadmap 2018
-
  
 ### Coding Standards and style
  - [YAPF](https://github.com/google/yapf) "Yet Another Python Formatter" Auto-formats Python to style-guides (select from built-in styles PEP8(default), Google, Chromium, Facebook). Also customisable.
@@ -38,6 +36,7 @@ the ECP and broader scientific community. It is part of the [IDEAS-ECP](https://
 
 ### Scientific Notebooks
  - [Jupyter Notebooks](http://jupyter.org/) The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. [Beginner's Video](https://www.youtube.com/watch?v=HW29067qVWk&t=1009s)
+ - [Jupyter and HPC Webinar](https://www.exascaleproject.org/event/jupyter) Current State and Future Roadmap 2018
  
 #### Examples:
  - [Electrostatics loop example](notebooks/Compiled_Examples.ipynb) A simple electrostatics loop implemented using pure Python, NumPy, Cython, Numba (inc GPU version) with timings. Contributed by Daniel Smith (MolSSI).
