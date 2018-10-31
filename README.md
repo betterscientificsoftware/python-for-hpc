@@ -15,6 +15,12 @@ the ECP and broader scientific community. It is part of the [IDEAS-ECP](https://
  - [Analyzing Python Performance with Intel VTune](https://www.alcf.anl.gov/files/Tullos-Analyzing_Python_Performance.pdf) 2017 Intel presentation.
  - [Using and Scaling Python](https://www.alcf.anl.gov/files/Scullin-Pavlyk%20_SDL2018_Python.pdf) ALCF Simulation, Data, and Learning Workshop 2018. William Scullin (ALCF) and Oleksandr Pavlyk (Intel)
  - [Python in HPC Webinar 2017](https://www.exascaleproject.org/event/python-in-hpc-2) 
+
+ 
+### Testing
+
+ -[pytest](https://pytest.org) - Recommended testing framework. Easy-to-use, auto-discovery of tests, fixtures, many useful plugins (eg. pytest-cov, pytest-timeout).
+ - [HPC Python Testing and Debugging Tutorial 2018](https://github.com/wscullin/ecp_python_tutorial/blob/master/slides/debugging_slides.pdf) ECP Annual Meeting 2018. Matt Belhorn (OLCF), William Scullin (ALCF), Rollin Thomas (NERSC) 
  
 ### Coding Standards and style
  - [YAPF](https://github.com/google/yapf) "Yet Another Python Formatter" Auto-formats Python to style-guides (select from built-in styles PEP8(default), Google, Chromium, Facebook). Also customisable.
@@ -106,6 +112,7 @@ Find more software engineering materials for computational scientists at the [Be
 
 ### Feedback
 
-Any feedback, corrections and suggested additions are welcome: shudson@anl.gov
+Any feedback, corrections, and suggested additions are welcome: shudson@anl.gov
+Or raise a github [issue](https://github.com/betterscientificsoftware/python-for-hpc/issues) in this repository (esp. broken links etc).
 
 <iframe src="https://ghbtns.com/github-btn.html?user=betterscientificsoftware&repo=python-for-hpc&type=star&count=false&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
