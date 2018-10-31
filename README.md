@@ -19,7 +19,7 @@ the ECP and broader scientific community. It is part of the [IDEAS-ECP](https://
  
 ### Testing
 
- -[pytest](https://pytest.org) - Recommended testing framework. Easy-to-use, auto-discovery of tests, fixtures, many useful plugins (eg. pytest-cov, pytest-timeout).
+ - [pytest](https://pytest.org) - Recommended testing framework. Easy-to-use, auto-discovery of tests, fixtures, many useful plugins (eg. pytest-cov, pytest-timeout).
  - [HPC Python Testing and Debugging Tutorial 2018](https://github.com/wscullin/ecp_python_tutorial/blob/master/slides/debugging_slides.pdf) ECP Annual Meeting 2018. Matt Belhorn (OLCF), William Scullin (ALCF), Rollin Thomas (NERSC) 
  
 ### Coding Standards and style
