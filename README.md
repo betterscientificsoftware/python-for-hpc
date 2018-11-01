@@ -60,9 +60,9 @@ systems is required to access the Jupyterhub servers.
  - [More NERSC Examples](https://github.com/NERSC?language=jupyter+notebook)
  
 The ALCF (Argonne Leadship Computing Facility) now supports Notebooks on Theta and Cooley. An ALCF account is required.
- - [Theta](https://jupyter.alcf.anl.gov/theta/hub/login)
- - [Cooley](https://jupyter.alcf.anl.gov/hub/login)
- - [Using Jupyter on Theta](notebooks/explore_theta_jupyterhub.ipynb) An notebook for getting started with Jupyter on Theta
+ - [Theta](https://jupyter.alcf.anl.gov/theta/hub/login) Jupyterhub for Theta
+ - [Cooley](https://jupyter.alcf.anl.gov/hub/login) Jupyterhub for Cooley
+ - [Using Jupyter on Theta](notebooks/explore_theta_jupyterhub.ipynb) A notebook for getting started with Jupyter on Theta
 
 
 ### Scientific Libraries
