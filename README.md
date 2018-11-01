@@ -45,7 +45,7 @@ the ECP and broader scientific community. It is part of the [IDEAS-ECP](https://
  - [Jupyter and HPC Webinar](https://www.exascaleproject.org/event/jupyter) Current State and Future Roadmap 2018
  
 #### Examples:
- - [Electrostatics loop example](notebooks/Compiled_Examples.ipynb) A simple electrostatics loop implemented using pure Python, NumPy, Cython, Numba (inc GPU version) with timings. Contributed by Daniel Smith (MolSSI).
+ - [Electrostatics loop example](notebooks/Compiled_Examples.ipynb) A simple electrostatics loop implemented using pure Python, NumPy, Cython, Numba (inc GPU version) with timings. Contributed by Daniel Smith (MolSSI). [Notes on running](notebooks/running_compiled_examples.md)
 
 ### Scientific Libraries
 
