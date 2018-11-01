@@ -40,12 +40,24 @@ the ECP and broader scientific community. It is part of the [IDEAS-ECP](https://
  - On-demand learning for Python - using a Transmedia Learning Framework [Webinar](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar018) [Python TLF](https://bssw.io/resources/transmedia-learning-frameworks-tlf)
  - [MolSSI institue Best Practices](https://molssi.org/education/best-practices) A concise set of best practices that apply to all scientfic software. [Webinar](https://www.youtube.com/watch?v=44ryG3PHIew)
 
+ 
 ### Scientific Notebooks
  - [Jupyter Notebooks](http://jupyter.org/) The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. [Beginner's Video](https://www.youtube.com/watch?v=HW29067qVWk&t=1009s)
- - [Jupyter and HPC Webinar](https://www.exascaleproject.org/event/jupyter) Current State and Future Roadmap 2018
- 
-#### Examples:
+
  - [Electrostatics loop example](notebooks/Compiled_Examples.ipynb) A simple electrostatics loop implemented using pure Python, NumPy, Cython, Numba (inc GPU version) with timings. Contributed by Daniel Smith (MolSSI). [Notes on running](notebooks/running_compiled_examples.md)
+ 
+Some HPC centres now support running Jupyter notebooks on supercomputers. Accounts on these
+systems is required to access the Jupyterhub servers.
+
+ - [Jupyter and HPC Webinar](https://www.exascaleproject.org/event/jupyter) Current State and Future Roadmap 2018. Includes information on NERSC's support for running notebooks on Cori.
+
+ - [Example Notebook with Slurm](https://github.com/NERSC/example-jupyter-notebooks) A NERSC example using SLURM magic (provided by Rollin Thomas).
+ - [More NERSC Examples](https://github.com/NERSC?language=jupyter+notebook)
+ 
+The ALCF (Argonne Leadship Computing Facility) now supports Notebooks on Theta and Cooley. An ALCF account is required.
+ - [Theta](https://jupyter.alcf.anl.gov/theta/hub/login)
+ - [Cooley](https://jupyter.alcf.anl.gov/hub/login)
+
 
 ### Scientific Libraries
 
