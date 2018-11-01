@@ -57,6 +57,7 @@ systems is required to access the Jupyterhub servers.
 The ALCF (Argonne Leadship Computing Facility) now supports Notebooks on Theta and Cooley. An ALCF account is required.
  - [Theta](https://jupyter.alcf.anl.gov/theta/hub/login)
  - [Cooley](https://jupyter.alcf.anl.gov/hub/login)
+ - [Using Jupyter on Theta](notebooks/explore_theta_jupyterhub.ipynb) An notebook for getting started with Jupyter on Theta
 
 
 ### Scientific Libraries
