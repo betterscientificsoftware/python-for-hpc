@@ -1,7 +1,7 @@
 ## Python for HPC: ECP Community Materials
 
 This site provides a combination of original resources and recommended links for Python users in
-the ECP and broader scientific community. It is part of the [IDEAS-ECP](https://ideas-productivity.org/ideas-ecp) project.
+the ECP and broader scientific community. It is part of the [Better Scientific Software](https://bssw.io/) initiative.
 
 Discuss this page on [slack](https://join.slack.com/t/bssw-python/shared_invite/enQtNDcxNDA3OTg0OTYwLTAyOGY0YjdhNDUzOTE1NGUwNGM4MDI1ZDQwY2U3OGY2NzQxZWE4ZDZiZjM2OTEzNDRkNDBkZTEyMDVlMDM2NTE)
 
