@@ -56,11 +56,16 @@ The Jupyter Notebook is an open-source web application that allows you to create
 Some HPC centres now support running Jupyter notebooks on supercomputers. Accounts on these
 systems is required to access the Jupyterhub servers.
 
+#### Jupyter at NERSC
+
  - [Jupyter and HPC Webinar](https://www.exascaleproject.org/event/jupyter) Current State and Future Roadmap 2018. Includes information on NERSC's support for running notebooks on Cori.
 
  - [Example Notebook with Slurm](https://github.com/NERSC/example-jupyter-notebooks) A NERSC example using SLURM magic (provided by Rollin Thomas).
  - [More NERSC Examples](https://github.com/NERSC?language=jupyter+notebook)
+
  
+#### Jupyter at Argonne
+
 The ALCF (Argonne Leadship Computing Facility) now supports Notebooks on Theta and Cooley. An ALCF account is required.
  - [Theta](https://jupyter.alcf.anl.gov/theta/hub/login) Jupyterhub for Theta
  - [Cooley](https://jupyter.alcf.anl.gov/hub/login) Jupyterhub for Cooley
