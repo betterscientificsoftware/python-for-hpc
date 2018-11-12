@@ -10,6 +10,8 @@ Discuss this page on [slack](https://join.slack.com/t/bssw-python/shared_invite/
  - [Creating a PYPI package](tutorials/python.pypi-packaging.md)
  - [Using Conda / Anaconda](tutorials/python.conda.md)
  - [Documenting with Sphinx](tutorials/python.doc-sphinx.md)
+ 
+ - [Python 102](https://python-102.readthedocs.io/en/latest/index.html) Covers topics that are essential for scientific computing and data analysis in Python, but typically not covered in an introductory course or workshop.
 
 ### Presentations and Webinars
  - [Python for High Performance Computing](https://github.com/wscullin/ecp_python_tutorial/blob/master/slides/ECP_Python_Tutorial_2018.pdf) ECP Annual Meeting 2018. William Scullin (ALCF), Matt Belhorn (OLCF) and Rollin Thomas (NERSC)
