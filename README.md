@@ -90,7 +90,7 @@ The ALCF (Argonne Leadship Computing Facility) now supports Notebooks on Theta a
 
 
 #### Python bindings to scientific libraries in HPC:
- - [petsc4py](https://bitbucket.org/petsc/petsc4py) Python bindings for PETSc
+ - [petsc4py](https://bitbucket.org/petsc/petsc4py) Python bindings for PETSc/Tao, the scalable Library for partial differential equations, and numerical optimization.
  - [slepc4py](https://bitbucket.org/slepc/slepc4py) Python bindings for SLEPc, the Scalable Library for Eigenvalue Problem Computations
  - [PyTrilinos](https://trilinos.org/packages/pytrilinos/) A set of python wrappers for selected Trilinos packages
 
