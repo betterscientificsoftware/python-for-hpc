@@ -86,6 +86,7 @@ The ALCF (Argonne Leadship Computing Facility) now supports Notebooks on Theta a
  
  - [mpi4py](https://mpi4py.readthedocs.io/en/stable/) Python wrapper for MPI
  - [Multiprocessing module](https://docs.python.org/3/library/multiprocessing.html) Basic multiple process parallelism through forked interpreters (with threading like interface). Be aware of issues mixing with OpenMP, MPI, or shared memory tools.
+ - [PyCOMPSs](https://www.bsc.es/research-and-development/software-and-apps/software-list/comp-superscalar/) PyCOMPSs is a programming model that enables the parallelization of sequential Python codes following a task-based approach. PyCOMPSs enables the execution in distributed infrastructures, such as Clusters, Grids, Clouds, and containers.
 
 
 #### Python bindings to scientific libraries in HPC:
