@@ -57,9 +57,9 @@ There is also an array expression example comparing numpy, numba and numexpr.
 
 Note on performance: Numba uses the llvm compiler, while the compiled components in other examples (numpy/cython) will be using the default gnu compilers in the provided results.
 
-Note on timing: The timeit output will give a time per loop - a loop here refers to one run of the function (not the inner loop!). With small functions, timeit will do multiple iterations of the function to reduce the impact of timing overhead. It will also repeat the timing run several times and take a mean and standard deviation. These can be controlled with arguments is required.
+Note on timing: The timeit output will give a time per loop - a loop here refers to one run of the function (not the inner loop!). With small functions, timeit will do multiple iterations of the function to reduce the impact of timing overhead. It will also repeat the timing run several times and take a mean and standard deviation. These can be controlled with arguments if required.
 
-Note on installing packages while using Notebook: If you find you need to install a package, install as usual and then restart the kernel in the Jupyter Notebook. From menu bar::
+Note on installing packages while using Notebook: If you find you need to install a package, install as usual and then restart the kernel in the Jupyter Notebook. From menu bar:
 
     Kernel -> Restart
 
