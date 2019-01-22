@@ -2,11 +2,14 @@
 
 The kernel in this example iterates over 1000 point charges, computing and summing the electrostatic forces between points. It has implementations in pure Python, NumPy, Cython (3 versions) and Numba (inc GPU version) with timings. For Cython, the compiled code generated is also shown.
 
-Instructions:
+### Instructions:
 
-    import jupyter
+First make sure jupyter is installed. E.g.
+
+    conda install jupyter # For conda
+    pip3 install jupyter  # with pip
     
-You may need to import other packages as required.
+You may need to install other packages as required.
 
     jupyter notebook Compiled_Examples.ipynb
 
