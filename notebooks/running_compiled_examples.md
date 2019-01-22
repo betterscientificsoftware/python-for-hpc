@@ -11,6 +11,8 @@ First make sure jupyter is installed. E.g.
     
 You may need to install other packages as required.
 
+Now run the notebook:
+
     jupyter notebook Compiled_Examples.ipynb
 
 or
