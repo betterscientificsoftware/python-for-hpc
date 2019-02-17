@@ -19,7 +19,7 @@ Discuss this page on [slack](https://join.slack.com/t/bssw-python/shared_invite/
  - [Analyzing Python Performance with Intel VTune](https://www.alcf.anl.gov/files/Tullos-Analyzing_Python_Performance.pdf) 2017 Intel presentation.
  - [Using and Scaling Python](https://www.alcf.anl.gov/files/Scullin-Pavlyk%20_SDL2018_Python.pdf) ALCF Simulation, Data, and Learning Workshop 2018. William Scullin (ALCF) and Oleksandr Pavlyk (Intel)
  - [Python in HPC Webinar 2017](https://www.exascaleproject.org/event/python-in-hpc-2) 
-
+ - [Python on Summit](https://www.olcf.ornl.gov/wp-content/uploads/2019/02/STW_Feb_20190211_summit_workshop_python.pdf) OLCF Feb 2019 [Note on mpi4py](tutorials/summit-mpi4py-note.md)
  
 ### Testing
 
