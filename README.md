@@ -130,7 +130,7 @@ The ALCF (Argonne Leadship Computing Facility) now supports Notebooks on Theta a
 ### Conferences and Events
  - [SciPy 2018 Videos](https://www.youtube.com/playlist?list=PLYx7XA2nY5Gd-tNhm79CNMe_qvi35PgUR)
  - [ALCF Simulation, Data and Learning Workshop 2018](https://www.alcf.anl.gov/workshops/sdl-workshop-oct2018) Includes slides for many relevant presentations.
- - PyHPC Workshop 2018 (In conjunction with SC18) [Announcements](https://twitter.com/pythonhpc?lang=en) [Register](https://www.dlr.de/sc/desktopdefault.aspx/tabid-12954/22625_read-52397/)
+ - PyHPC Workshop 2018 (In conjunction with SC18) [Twitter page](https://twitter.com/pythonhpc?lang=en)
  
 Find more software engineering materials for computational scientists at the [Better Scientific Software](https://bssw.io/) website.
 
