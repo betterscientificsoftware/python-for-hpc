@@ -119,7 +119,7 @@ The ALCF (Argonne Leadship Computing Facility) now supports Notebooks on Theta a
    PyCUDA lets you access Nvidia's CUDA parallel computation API from Python.
  - [PyOpenCL](https://documen.tician.de/pyopencl/index.html)
    PyOpenCL lets you access the OpenCL parallel computation API from Python
-
+ - [CuPy](https://cupy.chainer.org/) NumPy-like API accelerated with CUDA) [github](https://github.com/cupy/cupy)
 
 ### Ensemble and Workflow tools
  - [Parsl](http://parsl-project.org) Use Parsl with Jupyter notebooks to scale interactive analyses from laptops to supercomputers. [video](https://www.youtube.com/watch?v=tHTt0Pyb4_M)
