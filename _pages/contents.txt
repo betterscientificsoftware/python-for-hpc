@@ -1,0 +1,22 @@
+### Quick-start Guides
+### Presentations and Webinars
+### Testing
+### Coding Standards and style
+### Design Patterns
+### Tips on Python for Scientific Computing
+### Python resources for computational scientists
+### Scientific Notebooks
+#### Jupyter at NERSC
+#### Jupyter at Argonne
+### Scientific Libraries
+#### Scientific computing packages in Python (running C extensions):
+#### Parallel and Distributed Programming Options:
+#### Python bindings to scientific libraries in HPC:
+#### I/O:
+### Speeding up Python
+#### Or to create your own Python bindings to compiled code:
+### Python on Accelerators
+### Ensemble and Workflow tools
+### Conferences and Events
+### Alternatives to Python
+### Feedback

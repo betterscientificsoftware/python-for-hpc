@@ -1,3 +1,13 @@
+---
+author: Stephen Hudson
+layout: single
+permalink: /tutorials/matlab-numpy-conversion/
+title: "Matlab to NumPy Conversion"
+author_profile: true
+sidebar:
+  nav: "content"
+---
+
 Matlab users who wish to try Python/NumPy may find these web resources useful:
 
 Matlab to Numpy reference from the SciPy site useful.

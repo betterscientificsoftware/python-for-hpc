@@ -1,6 +1,16 @@
-# Python: Creating a pip installable package
+---
+author: Stephen Hudson
+layout: single
+permalink: /tutorials/python-pypi-packaging/
+title: "Python: Creating a pip installable package"
+author_profile: true
+sidebar:
+  nav: "content"
+---
 
-#### Contributed by [Steve Hudson](https://github.com/shuds13)
+<!-- # Python: Creating a pip installable package -->
+
+<!-- ### Contributed by [Steve Hudson](https://github.com/shuds13) -->
 
 1. [Introduction](#introduction)
 2. [What is pip?](#what-is-pip)
@@ -15,7 +25,7 @@
 11. [Feedback](#feedback)
 
 
-### Introduction
+## Introduction
 
 This is a quickstart guide to Python Packaging with a particular focus on the creation of a PyPI package, which will enable users to "pip install" the package. The document is broken down into sections so that readers may easily skips parts of the process they are already familiar with. All but the final section (Uploading to PyPI), can be undertaken as an exercise to understand Python packaging and test the process, without publishing a package on the formal PyPI distribution.
 
@@ -24,7 +34,7 @@ For a more detailed reference on package creation, see the official Python Packa
 Note: PyPI should be pronounced “pie P I” to avoid confusion with pypy (a Python implementation).
 
 
-### What is pip?
+## What is pip?
 
 pip is a package management system, specifically designed for installing Python packages from from the internet hosted Python Package Index (commonly known as PyPI). It is the most common way to install Python packages. E.g.
 
@@ -68,7 +78,7 @@ Package information, including install location, can be obtained by running the 
 Installing pip is easy: <https://pip.pypa.io/en/stable/installing>
 
 
-### Creating a Python package
+## Creating a Python package
 
 This article gives an overview of how to create an installable Python package.
 
@@ -183,7 +193,7 @@ This does create the problem of having two places holding the version, which mus
 If you wish to create sub-packages, these should ideally be directories inside the main package (Re-mapping from other locations is possible using the package_dir argument in setup but this can cause a [problem with develop installs](https://github.com/pypa/pip/issues/3160). The sub-packages also require an \__init__.py in the directory.
 
  
-### Creating a source distribution
+## Creating a source distribution
 
 It is recommended that all Python projects provide a source distribution.
 
@@ -204,7 +214,7 @@ This creates a dist/ directory containing a compressed archive of the package (e
 Note: A `<PACKAGE_NAME>`.egg-info directory will also be created in your root directory containing meta-data about your distribution. This can safely be deleted if it is not wanted (despite the extension, this is generated even though you have not built an egg format package).
 
 
-### Creating a wheel distribution
+## Creating a wheel distribution
 
 Optionally you may create a wheel distribution. This is a built distribution for the current platform. Wheels should be used in place of the older egg format. Bear in mind, any extensions will be built for the given platform and as such this must be consistent with any other project dependencies. Wheels will speed up installation if you have compiled code extensions as the build step is not required.
 
@@ -225,7 +235,7 @@ The installable wheel will be created under the dist/ directory. A build directo
 Further details for building wheels can be found here: <https://packaging.python.org/tutorials/distributing-packages>
 
 
-### Testing and Publishing package on PyPI
+## Testing and Publishing package on PyPI
 
 Distributing the package on PyPI will enable anyone on-line to pip install the package.
 
@@ -246,7 +256,7 @@ The best approach to uploading to PyPI  is to use twine.
 IMPORTANT: First you can test your upload using the PyPI test site. It is highly recommended that you do this and test installing your package as below. NOTE: Once you upload a  package to PYPI it is possible to remove it, but you cannot upload another package with the same version number – this breaks the version contract. It is therefore, especially prudent to test with testpypi first. Note that anything you put on testpypi should be considered disposable as the site regularly prunes content.
 
 
-#### Uploading to testpypi
+### Uploading to testpypi
 
 This section shows how to upload a source distribution of your package.
 
@@ -288,7 +298,7 @@ You can now test pip install from the command line. E.g. To install package pyex
     pip install --index-url https://test.pypi.org/simple/ pyexample --user
 
 
-#### Uploading to PyPI
+### Uploading to PyPI
 
 Once you are happy with the repository in testpyi, uploading to PYPI will be the same command line process, but without having to specify the url arguments. For example, the steps above would simply become:
 
@@ -309,7 +319,7 @@ The package should pip install. E.g:
 It is also recommended that you use virtual environments to test installing dependencies from scratch and for trying out different python versions. Check required flags to ensure your environment is isolated. E.g. For Virtualenv use the flag `--no-site-packages`. For Conda, set the environment variable `export PYTHONNOUSERSITE=1` before activating you environment. Packages that are explicitly linked through PYTHONPATH will still be found however.
 
 
-#### Downloading tarball without install
+### Downloading tarball without install
     
 To test downloading a source distribution (no install) with dependencies:
 
@@ -322,11 +332,11 @@ Or just the package without dependencies:
 Downloading the source distribution is a good way to check that it includes what you want by default. If not, then consider adding a [MANIFEST](https://docs.python.org/distutils/sourcedist) file, which instructs setuptools what to include in the source distribution.
 
 
-### Example projects
+## Example projects
 
 <!-- Probably rename - need to update content -->
 
-#### pyexample:
+### pyexample:
 
 A small sample project using numpy and mpi4py (used as example above).
 
@@ -338,7 +348,7 @@ Note: To run the mpi4py test use at least 2 processors:
 
 *  `mpiexec -np 2 python module_mpi4py_1.py`
 
-#### libEnsemble:
+### libEnsemble:
 An Argonne project for running ensembles of calculations.
 
 Location:
@@ -355,7 +365,7 @@ Related content includes:
 
 <!-- Other examples - maybe more mature packages like mpi4py/petsc4py -->
 
-### Feedback
+## Feedback
 
 Any feedback/corrections are welcome: shudson@anl.gov
 

@@ -1,0 +1,72 @@
+# Best to not edit navigation.yml, but run script make_contents.py along with navigation.tmpl
+# main links
+main:
+  - title: "About"
+    url: /about/
+  - title: "Python for HPC"
+    url: /python-for-hpc/
+
+    
+content:
+    - title: "Getting Started"
+      children:
+      - title: "Quick-start Guides"
+        url: /python-for-hpc/#quick-start-guides
+      - title: "Presentations and Webinars"
+        url: /python-for-hpc/#presentations-and-webinars
+      - title: "Python resources for Scientists"
+        url: /python-for-hpc/#python-resources-for-scientists
+    - title: "Best Practices in Python"
+      children:
+      - title: "Testing"
+        url: /python-for-hpc/#testing
+      - title: "Coding Standards and Style"
+        url: /python-for-hpc/#coding-standards-and-style
+      - title: "Design Patterns"
+        url: /python-for-hpc/#design-patterns
+      - title: "Tips on Python for Scientific Computing"
+        url: /python-for-hpc/#tips-on-python-for-scientific-computing
+    - title: "Scientific Notebooks"
+      children:
+      - title: "Jupyter Notebooks"
+        url: /python-for-hpc/#jupyter-notebooks
+      - title: "Example: Python at Speed"
+        url: /python-for-hpc/#example-python-at-speed
+      - title: "Jupyter on Supercomputers"
+        url: /python-for-hpc/#jupyter-on-supercomputers
+      - title: "Jupyter at NERSC"
+        url: /python-for-hpc/#jupyter-at-nersc
+      - title: "Jupyter at Argonne"
+        url: /python-for-hpc/#jupyter-at-argonne
+    - title: "Scientific Programming in Python"
+      children:
+      - title: "Scientific Computing Packages:"
+        url: /python-for-hpc/#scientific-computing-packages
+      - title: "Speeding up Python"
+        url: /python-for-hpc/#speeding-up-python
+      - title: "Create Python Bindings to Code:"
+        url: /python-for-hpc/#create-python-bindings-to-code
+      - title: "Python on Accelerators"
+        url: /python-for-hpc/#python-on-accelerators
+    - title: "Parallel and Distributed Programming:"
+      children:
+      - title: "Shared Memory Parallelism"
+        url: /python-for-hpc/#shared-memory-parallelism
+      - title: "Distributed Memory Parallelism"
+        url: /python-for-hpc/#distributed-memory-parallelism
+    - title: "Scientific Libraries for HPC"
+      children:
+      - title: "Python Bindings to HPC libraries:"
+        url: /python-for-hpc/#python-bindings-to-hpc-libraries
+      - title: "I/O:"
+        url: /python-for-hpc/#io
+      - title: "Ensemble and Workflow tools"
+        url: /python-for-hpc/#ensemble-and-workflow-tools
+    - title: "Other"
+      children:
+      - title: "Conferences and Events"
+        url: /python-for-hpc/#conferences-and-events
+      - title: "Alternatives to Python"
+        url: /python-for-hpc/#alternatives-to-python
+      - title: "Feedback"
+        url: /python-for-hpc/#feedback

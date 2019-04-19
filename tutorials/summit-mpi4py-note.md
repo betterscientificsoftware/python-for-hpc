@@ -1,7 +1,7 @@
 mpi4py on Summit
 ================
 
-#### Contributed by [Steve Hudson](https://github.com/shuds13)
+### Contributed by [Steve Hudson](https://github.com/shuds13)
 
 At time of writing (Feb 2019) I've found the following works for mpi4py on Python.
 

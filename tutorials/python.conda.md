@@ -1,8 +1,18 @@
-# Conda and Anaconda
+---
+author: Stephen Hudson
+layout: single
+permalink: /tutorials/python-conda/
+title: "Conda and Anaconda"
+author_profile: true
+sidebar:
+  nav: "content"
+---
 
-#### Contributed by [Steve Hudson](https://github.com/shuds13)
+<!-- # Conda and Anaconda -->
 
-### What is Conda/Anaconda/Miniconda
+<!-- ### Contributed by [Steve Hudson](https://github.com/shuds13) -->
+
+## What is Conda/Anaconda/Miniconda
 
 The Conda products form a free cross-platform package management system created by Continuum Analytics, and consists of the following components.
 
@@ -35,7 +45,7 @@ A good discussion on the thinking behind Conda and some common misconceptions ca
 
 
 
-### Issues and Limitations
+## Issues and Limitations
 
 A downside of using a binary distribution is that it can be inflexible. The binaries are only built and configured for selected platforms and configurations. Furthermore, packages may come with incompatible dependencies (due to version locked packages or alternative API implementations). This may result in a dependency for one package being upgraded/downgraded when installing a later package. To some extent this can be managed by use of the `--no-deps` or `--no-update-deps` option on the Conda install command. Conda does not support virtual dependencies and packages may, for example, come with a given MPI implementation as a dependency. 
 
@@ -63,7 +73,7 @@ When installing on a system with an existing MPI, such as a cluster, then it is 
 
 If working in a cross-compilation environment, ensure the correct compiler and MPI libraries are loaded.
     
-### Combining with external dependencies
+## Combining with external dependencies
 
 Python will locate installed packages according to sys.path which can be checked by:
 
@@ -78,14 +88,14 @@ To ensure isolation from external packages on your system set the environment va
 
 <!-- Cross compilation issues *** -->
 
-### Cross compilation
+## Cross compilation
 
 Conda version 5 has added some features for compiler specification/cross-compilation. A good overview is given in the Conda documentation under [Compiler Tools](https://conda.io/docs/user-guide/tasks/build-packages/compiler-tools.html). Note that as the Conda distributions themselves are binary, the builds are still limited to those available. 
 
 <!-- Add example of this -->
 
 
-### Examples
+## Examples
 
 The Intel Python libraries are popular for use in high performance environments. 
 
@@ -108,7 +118,7 @@ Intel Conda packages include NumPy and SciPy based on MKL.
 Note that the Intel compiler is not included in the Intel Conda packages. These packages will generally work with gcc and this may be worthwhile for picking up, for example, the MKL library. If an Intel compiler is not available on the system, the default gcc compiler will be used.
 
 
-### Feedback
+## Feedback
 
 Any feedback/corrections are welcome: shudson@anl.gov
 
