@@ -174,11 +174,11 @@ William Scullin (ALCF), Matt Belhorn (OLCF), Rollin Thomas (NERSC)
 
 ## Feedback
 
-Any feedback/corrections are welcome: shudson@anl.gov
+Any feedback/corrections are welcome:
+    Comment at: [slack](https://join.slack.com/t/bssw-python/shared_invite/enQtNDcxNDA3OTg0OTYwLTAyOGY0YjdhNDUzOTE1NGUwNGM4MDI1ZDQwY2U3OGY2NzQxZWE4ZDZiZjM2OTEzNDRkNDBkZTEyMDVlMDM2NTE)
+    Email: shudson@anl.gov
 
-<br>
-
-Back to [contents page](/python-for-hpc/)
+Back to [contents page]({{site.baseurl}}/python-for-hpc/python-for-hpc/)
 
 
 
