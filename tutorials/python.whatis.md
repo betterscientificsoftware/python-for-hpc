@@ -50,7 +50,7 @@ Due to the above, it is fairly simple to get started with Python. It is also ver
 
 To take advantage of mathematical/linear algebra functions which are numerically intensive, the NumPy and SciPy modules are recommended. These are not pure Python packages, but rather are mostly written in C with Python bindings. When these functions are run, the Python interpreter yields to compiled code, giving the speed of compiled C, called from a Python program. This can provide good numerical performance when the intensive loops of the code can be composed of these functions.
 
-These packages are available as pre-compiled binaries for common platforms (known in Python as 'Wheels'), but may also be compiled by the user. The pre-compiled binaries, are likely to have standard optimization flags, but not specialist platform flags. They usually do not have AVX, for example. Some of these functions may also make use of multiple threads/cores available on the system (as they are in compiled code, Pythons global interpreter lock is released *see below).
+These packages are available as pre-compiled binaries for common platforms (known in Python as `Wheels`), but may also be compiled by the user. The pre-compiled binaries, are likely to have standard optimization flags, but not specialist platform flags. They usually do not have AVX, for example. Some of these functions may also make use of multiple threads/cores available on the system (as they are in compiled code, Pythons global interpreter lock is released *see below).
 
 It should be noted that a number of NumPy/SciPy linear algebra functions call underlying BLAS and LAPACK libraries for the bulk of the computation. These may vary in speed significantly from the reference implementations (provided by Netlib) to high performance implementations such as OpenBLAS, ATLAS and Intel's MKL (all of which are now openly available).
 
@@ -121,7 +121,7 @@ This is essentially trying to install a version that does not exist and causes p
 
     pip install mpi4py --no-binary mpi4py
     
-As dependencies are also installed, this command is telling pip to install mpi4py and then only use source distributions for those packages listed after the `--no-binary` option (an all option is also available).
+As dependencies are also installed, this command is telling pip to install mpi4py and then only use source distributions for those packages listed after the `--no-binary` option (an `:all` argument is also available).
 
 
 **Tip**: Check package configuration after install:
@@ -133,6 +133,7 @@ As dependencies are also installed, this command is telling pip to install mpi4p
 In the example given, the MPI libraries/compilers used will be shown.
 
 You can also look at other package information eg:
+
     >>> mpi4py.__path__
     >>> mpi4py.__version__
 
@@ -158,7 +159,7 @@ Virtualenv is a popular alternative for those not using Conda.
 * [Intel Python](https://software.intel.com/en-us/distribution-for-Python) - managed and used via Conda
 * [Enthought Canopy](https://www.enthought.com/product/enthought-Python-distribution)
 
-[Example](https://{{site.baseurl}}/tutorials/python-conda/#examples) of Intel Python usage in Conda.
+[Example]({{site.baseurl}}/tutorials/python-conda/#examples) of Intel Python usage in Conda.
 
     
 ## Links
@@ -177,7 +178,7 @@ Any feedback/corrections are welcome: shudson@anl.gov
 
 <br>
 
-Back to [main page](https://betterscientificsoftware.github.io/python-for-hpc)
+Back to [contents page](/python-for-hpc/)
 
 
 
