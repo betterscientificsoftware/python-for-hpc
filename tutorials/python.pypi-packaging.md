@@ -367,11 +367,13 @@ Related content includes:
 
 ## Feedback
 
-Any feedback/corrections are welcome: shudson@anl.gov
+Any feedback/corrections/additions are welcome:
 
-<br>
+ - Comment at: [slack](https://join.slack.com/t/bssw-python/shared_invite/enQtNDcxNDA3OTg0OTYwLTAyOGY0YjdhNDUzOTE1NGUwNGM4MDI1ZDQwY2U3OGY2NzQxZWE4ZDZiZjM2OTEzNDRkNDBkZTEyMDVlMDM2NTE)
+ - Email: shudson@anl.gov
+ - Or fork on [github](https://github.com/betterscientificsoftware/python-for-hpc) and make a pull request
 
-Back to [main page](https://betterscientificsoftware.github.io/python-for-hpc)
+Back to [contents page]({{site.baseurl}}/python-for-hpc/)
 
 <!--Notes -->
 <!--Make sure date of last article review/update is shown and way to provide feedback/questions-->

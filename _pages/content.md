@@ -182,7 +182,13 @@ Find more software engineering materials for computational scientists at the [Be
 
 ### Feedback
 
-Any feedback, corrections, and suggested additions are welcome: shudson@anl.gov
-Or raise a github [issue](https://github.com/betterscientificsoftware/python-for-hpc/issues) in this repository (esp. broken links etc).
+Any feedback/corrections/additions are welcome:
+
+ - Comment at: [slack](https://join.slack.com/t/bssw-python/shared_invite/enQtNDcxNDA3OTg0OTYwLTAyOGY0YjdhNDUzOTE1NGUwNGM4MDI1ZDQwY2U3OGY2NzQxZWE4ZDZiZjM2OTEzNDRkNDBkZTEyMDVlMDM2NTE)
+ - Email: shudson@anl.gov
+ - Or fork on [github](https://github.com/betterscientificsoftware/python-for-hpc) and make a pull request
+
+Back to [main page]({{site.baseurl}})
+
 
 <iframe src="https://ghbtns.com/github-btn.html?user=betterscientificsoftware&repo=python-for-hpc&type=star&count=false&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>

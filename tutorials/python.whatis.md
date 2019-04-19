@@ -169,12 +169,12 @@ Virtualenv is a popular alternative for those not using Conda.
 
 ## References
 
-Python for High Performance Computing (Exascale Computing Project 2nd Annual Meeting) [Slides](https://github.com/wscullin/ecp_Python_tutorial/blob/master/slides/ECP_Python_Tutorial_2018.pdf)
+ - Python for High Performance Computing (Exascale Computing Project 2nd Annual Meeting) [Slides](https://github.com/wscullin/ecp_Python_tutorial/blob/master/slides/ECP_Python_Tutorial_2018.pdf)
 William Scullin (ALCF), Matt Belhorn (OLCF), Rollin Thomas (NERSC)
 
 ## Feedback
 
-Any feedback/corrections are welcome:
+Any feedback/corrections/additions are welcome:
 
  - Comment at: [slack](https://join.slack.com/t/bssw-python/shared_invite/enQtNDcxNDA3OTg0OTYwLTAyOGY0YjdhNDUzOTE1NGUwNGM4MDI1ZDQwY2U3OGY2NzQxZWE4ZDZiZjM2OTEzNDRkNDBkZTEyMDVlMDM2NTE)
  - Email: shudson@anl.gov
