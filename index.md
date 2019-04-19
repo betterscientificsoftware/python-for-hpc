@@ -9,7 +9,6 @@ sidebar:
 
 ## In the Spotlight ...
 
-
 ### Featured Notebook:
 
 Try out simple number crunching code in Python, NumPy, Cython, Numba (inc GPU version) with timings.
@@ -17,6 +16,8 @@ Try out simple number crunching code in Python, NumPy, Cython, Numba (inc GPU ve
  - New to Jupyter? [How to get it running]({{site.baseurl}}/notebooks/running-compiled-examples/){:target="_blank"}
 
  Contributed by Daniel Smith (MolSSI). 
+
+---
 
 ### Featured Webinar:
 
