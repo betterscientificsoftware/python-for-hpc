@@ -25,7 +25,7 @@ First make sure jupyter is installed. E.g.
     conda install jupyter # For conda
     pip3 install jupyter  # with pip
     
-You may need to install other packages as required.
+You may need to install other packages as required when you run.
 
 Now run the notebook:
 
@@ -42,6 +42,17 @@ Optional: You may want to clear the output here, from menu bar:
     Kernel -> Restart and Clear Output
     
 Then you can select `Run` from the command buttons or press `ctrl-Enter` in each cell to execute the cell. If the cell identifier (In [ ]) turns to an asterisk, it is processing or waiting for a previous cell to process. If it becomes a number it has processed, showing the order of cell execution.
+
+<details>
+  <summary>Having trouble with missing modules?</summary>
+  
+    Note on installing packages while using Notebook: If you find you need to install a package, install as usual and then restart the kernel in the Jupyter Notebook. From menu bar:
+
+        Kernel -> Restart
+        
+</details>
+
+<br>
 
 Now you can run through and create results/timings/graphs for your system.
  
@@ -68,8 +79,3 @@ There is also an array expression example comparing numpy, numba and numexpr.
 Note on performance: Numba uses the llvm compiler, while the compiled components in other examples (numpy/cython) will be using the default compilers for your system (gnu compilers in the provided results).
 
 Note on timing: The `timeit` output will give a time per loop - a loop here refers to one run of the function (not the inner loop!). With small functions, timeit will do multiple iterations of the function to reduce the impact of timing overhead. It will also repeat the timing run several times and take a mean and standard deviation. These can be controlled with arguments if required.
-
-Note on installing packages while using Notebook: If you find you need to install a package, install as usual and then restart the kernel in the Jupyter Notebook. From menu bar:
-
-    Kernel -> Restart
-
