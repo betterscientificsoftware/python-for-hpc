@@ -47,7 +47,7 @@ Note: pip3 is used to install Python3 packages, however in some environments the
 
 **Tip**: To download a specific version of a package:
 
-    pip install mpi4py=2.0.0
+    pip install mpi4py==2.0.0
 
 
 **Tip**: To find out what versions are available:
