@@ -3,6 +3,7 @@ layout: single
 permalink: /notebooks/running-compiled-examples/
 title: "Scientific Notebook Example"
 author_profile: false
+comments: true
 sidebar:
   nav: "content"
 ---
@@ -45,7 +46,7 @@ Then you can select `Run` from the command buttons or press `ctrl-Enter` in each
 
 <details>
   <summary>Having trouble with missing modules?</summary>
-  
+
     Note on installing packages while using Notebook: If you find you need to install a package, install as usual and then restart the kernel in the Jupyter Notebook. From menu bar:
 
         Kernel -> Restart
