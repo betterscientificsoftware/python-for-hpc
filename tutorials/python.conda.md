@@ -4,6 +4,7 @@ layout: single
 permalink: /tutorials/python-conda/
 title: "Conda and Anaconda"
 author_profile: true
+comments: true
 sidebar:
   nav: "content"
 ---
@@ -122,7 +123,7 @@ Note that the Intel compiler is not included in the Intel Conda packages. These 
 
 Any feedback/corrections/additions are welcome:
 
- - Comment at: [slack](https://join.slack.com/t/bssw-python/shared_invite/enQtNDcxNDA3OTg0OTYwLTAyOGY0YjdhNDUzOTE1NGUwNGM4MDI1ZDQwY2U3OGY2NzQxZWE4ZDZiZjM2OTEzNDRkNDBkZTEyMDVlMDM2NTE)
+ - Comment below or at: [slack](https://join.slack.com/t/bssw-python/shared_invite/enQtNDcxNDA3OTg0OTYwLTAyOGY0YjdhNDUzOTE1NGUwNGM4MDI1ZDQwY2U3OGY2NzQxZWE4ZDZiZjM2OTEzNDRkNDBkZTEyMDVlMDM2NTE)
  - Email: shudson@anl.gov
  - Or fork on [github](https://github.com/betterscientificsoftware/python-for-hpc) and make a pull request
 

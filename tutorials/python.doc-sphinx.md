@@ -4,6 +4,7 @@ layout: single
 permalink: /tutorials/python-doc-sphinx/
 title: "Documentation with Sphinx"
 author_profile: true
+comments: true
 sidebar:
   nav: "content"
 ---
@@ -283,10 +284,11 @@ More info at official [webpage](http://www.sphinx-doc.org)
 
 Any feedback/corrections are welcome: shudson@anl.gov
 
-<br>
+ - Comment below or at: [slack](https://join.slack.com/t/bssw-python/shared_invite/enQtNDcxNDA3OTg0OTYwLTAyOGY0YjdhNDUzOTE1NGUwNGM4MDI1ZDQwY2U3OGY2NzQxZWE4ZDZiZjM2OTEzNDRkNDBkZTEyMDVlMDM2NTE)
+ - Email: shudson@anl.gov
+ - Or fork on [github](https://github.com/betterscientificsoftware/python-for-hpc) and make a pull request
 
-Back to [main page](https://betterscientificsoftware.github.io/python-for-hpc)
-
+Back to [contents page]({{site.baseurl}}/python-for-hpc/)
 <!--Template to fill in from how-to example-->
 <!---
 Publish: yes

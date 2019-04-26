@@ -4,6 +4,7 @@ layout: single
 permalink: /tutorials/matlab-numpy-conversion/
 title: "Matlab to NumPy Conversion"
 author_profile: true
+comments: true
 sidebar:
   nav: "content"
 ---
@@ -23,7 +24,7 @@ Getting started - comparison Matlab and NumPy
 
 Any feedback/corrections/additions are welcome:
 
- - Comment at: [slack](https://join.slack.com/t/bssw-python/shared_invite/enQtNDcxNDA3OTg0OTYwLTAyOGY0YjdhNDUzOTE1NGUwNGM4MDI1ZDQwY2U3OGY2NzQxZWE4ZDZiZjM2OTEzNDRkNDBkZTEyMDVlMDM2NTE)
+ - Comment below or at: [slack](https://join.slack.com/t/bssw-python/shared_invite/enQtNDcxNDA3OTg0OTYwLTAyOGY0YjdhNDUzOTE1NGUwNGM4MDI1ZDQwY2U3OGY2NzQxZWE4ZDZiZjM2OTEzNDRkNDBkZTEyMDVlMDM2NTE)
  - Email: shudson@anl.gov
  - Or fork on [github](https://github.com/betterscientificsoftware/python-for-hpc) and make a pull request
 

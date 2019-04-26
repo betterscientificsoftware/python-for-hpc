@@ -3,6 +3,7 @@ layout: single
 permalink: /python-for-hpc/
 title: "Python for HPC: ECP Community Materials"
 author_profile: false
+comments: true
 sidebar:
   nav: "content"
 ---
