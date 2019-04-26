@@ -64,14 +64,11 @@ This Notebook includes cells to run the kernel with:
  - numpy
  - cython unmodified (will use CPython calls ~same speed as Python)
  - cython with numpy and type definitions
- - cython in parallel* (threaded) with numnpy and type definitions
+ - cython in parallel (threaded) with numnpy and type definitions
  - Numba (unmodified pure python)
  - Numba in parallel (threaded)
  - Numba on GPU (Need to uncomment - req. CUDA capable GPU)
  - Finally a cell that runs all for varous data sizes and tabulates
-
-numexpr:
-There is also an array expression example comparing numpy, numba and numexpr.
 
 
 ### Notes:
