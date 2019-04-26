@@ -32,13 +32,12 @@ You may need to install other packages as required when you run, including:
 * cython
 * numba
 * matplotlib
+* pandas
 * seaborn
 
 Now run the notebook:
 
     jupyter notebook Compiled_Examples.ipynb
-
-The notebook will be rendered with the original output (run on 2-core Broadwell i7-5600U CPU @ 2.60GHz).
 
 Optional: To clear any existing output, from menu bar:
 
