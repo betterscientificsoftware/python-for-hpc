@@ -26,7 +26,13 @@ First make sure jupyter is installed. E.g.
     conda install jupyter # For conda
     pip3 install jupyter  # with pip
     
-You may need to install other packages as required when you run.
+You may need to install other packages as required when you run, including:
+
+* numpy
+* cython
+* numba
+* matplotlib
+* seaborn
 
 Now run the notebook:
 
@@ -34,11 +40,7 @@ Now run the notebook:
 
 The notebook will be rendered with the original output (run on 2-core Broadwell i7-5600U CPU @ 2.60GHz).
 
-To run on your system, make a copy. In the notebook, from menu bar:
-
-    File -> Make a Copy...
-
-Optional: You may want to clear the output here, from menu bar:
+Optional: To clear any existing output, from menu bar:
 
     Kernel -> Restart and Clear Output
     
@@ -72,11 +74,9 @@ This Notebook includes cells to run the kernel with:
 numexpr:
 There is also an array expression example comparing numpy, numba and numexpr.
 
-*Note that the Cython parallel runs, which should be creating threads, did not work on the system for which results are shown - it just ran serial. This is still included.
-
 
 ### Notes:
 
-Note on performance: Numba uses the llvm compiler, while the compiled components in other examples (numpy/cython) will be using the default compilers for your system (gnu compilers in the provided results).
+Note on performance: Numba uses the llvm compiler, while the compiled components in other examples (numpy/cython) will be using the default compilers for your system (GNU compilers in the provided results).
 
 Note on timing: The `timeit` output will give a time per loop - a loop here refers to one run of the function (not the inner loop!). With small functions, timeit will do multiple iterations of the function to reduce the impact of timing overhead. It will also repeat the timing run several times and take a mean and standard deviation. These can be controlled with arguments if required.
