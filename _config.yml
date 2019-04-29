@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Python for HPC: ECP Community Materials"
 title_separator          : "-"
 name                     : "Better Scientific Software"
-description              : "This site provides a combination of original resources and recommended links for Python users in the ECP and broader scientific community. It is part of the [Better Scientific Software](https://bssw.io/) initiative."
+description              : "This site provides a combination of original resources and recommended links for Python users in the HPC and broader scientific community. It is part of the [Better Scientific Software](https://bssw.io/) initiative."
 url                      : https://betterscientificsoftware.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : /python-for-hpc # the subpath of your site, e.g. "/blog"
 repository               : "betterscientificsoftware/python-for-hpc" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -236,6 +236,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-github-metadata  
 
 # mimic GitHub Pages with --safe
 whitelist:
