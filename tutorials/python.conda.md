@@ -28,7 +28,7 @@ Miniconda still has access to the Anaconda repository on-line, and other reposit
 
 While Conda packages are a binary distribution allowing very fast installation, other forms of installation are supported inside Conda environments, including pip. Any source installation can also be performed inside the Conda virtual environment. Each package installs along with a list of dependent packages by default.
 
-Conda environments are an alternative to other python virtual environment managers such as virtualenv. Virtual environments are extremely useful in python for enabling reproducibility and maintaining multiple sets of packages/dependencies. Unlike other virtual environments, Conda installs Python itself inside the environment, by default.
+Conda environments are an alternative to other python virtual environment managers such as virtualenv. Virtual environments are extremely useful in Python for enabling reproducibility and maintaining multiple sets of packages/dependencies. Unlike other virtual environments, Conda installs Python itself inside the environment, by default.
 
 Ananconda is provided on many major computing platforms, generally requiring loading of an environment module or equivalent.
 
@@ -62,18 +62,23 @@ or
 
     conda install mpi4py
 
+These packages will now be using mpich instead of openmpi.
+    
 One answer to this is to try to install packages in one line as follows:
 
     conda install petsc mpi4py openmpi
 
-If this does not work, then sometimes combining source distributions with Conda can be used to create customized builds, along with `--no-deps` flags.
+If this does not work, then sometimes combining source distributions with Conda can be used to create customized builds.
 
 When installing on a system with an existing MPI, such as a cluster, then it is highly recommended that mpi4py is installed on top of the system MPI. This can be done in the Conda environment using pip install as follows:
 
-    env MPICC=$(which cc) pip install mpi4py
+    env MPICC=$(which cc) pip install mpi4py --no-binary mpi4py
+
+As dependencies are also installed, this command is telling pip to install mpi4py and then only use source distributions for those packages listed after the `--no-binary` option (an `:all` argument is also available). Set MPICC to the MPI compiler to be used.
 
 If working in a cross-compilation environment, ensure the correct compiler and MPI libraries are loaded.
-    
+
+
 ## Combining with external dependencies
 
 Python will locate installed packages according to sys.path which can be checked by:
