@@ -1,10 +1,10 @@
 ---
 author: Stephen Hudson
-layout: single
-permalink: /tutorials/matlab-numpy-conversion/
 title: "Matlab to NumPy Conversion"
-author_profile: true
-comments: true
+date: 2019-01-18
+tags: [matlab, numpy]
+excerpt: "Matlab to NumPy Conversion"
+classes: wide
 sidebar:
   nav: "content"
 ---
