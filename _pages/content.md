@@ -56,11 +56,7 @@ Discuss this page on [slack](https://join.slack.com/t/bssw-python/shared_invite/
 "Design Patterns are general, repeatable solutions to common recurring problems in software development." [From Wikipedia, the free encyclopedia, "Design pattern (computer science)"].
  - [python-patterns](https://github.com/faif/python-patterns) A collection of design patterns and idioms in Python with coded examples.
 
-### Tips on Python for Scientific Computing
- - [Interrogating NumPy Configuration/Compiler Options]({{site.baseurl}}/tutorials/interrogating-numpy/)
- - [Links for moving from Matlab to NumPy]({{site.baseurl}}/tutorials/matlab-numpy-conversion/)
- 
- 
+
 ## Scientific Notebooks
 
 ### Jupyter Notebooks

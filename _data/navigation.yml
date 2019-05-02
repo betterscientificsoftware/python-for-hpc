@@ -27,8 +27,6 @@ content:
         url: /python-for-hpc/#coding-standards-and-style
       - title: "Design Patterns"
         url: /python-for-hpc/#design-patterns
-      - title: "Tips on Python for Scientific Computing"
-        url: /python-for-hpc/#tips-on-python-for-scientific-computing
     - title: "Scientific Notebooks"
       children:
       - title: "Jupyter Notebooks"
