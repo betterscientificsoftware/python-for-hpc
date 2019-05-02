@@ -49,6 +49,9 @@ Discuss this page on [slack](https://join.slack.com/t/bssw-python/shared_invite/
  - [HPC Python Testing and Debugging Tutorial 2018](https://github.com/wscullin/ecp_python_tutorial/blob/master/slides/debugging_slides.pdf) ECP Annual Meeting 2018. Matt Belhorn (OLCF), William Scullin (ALCF), Rollin Thomas (NERSC) 
  
 ### Coding Standards and Style
+
+ - [PEP8](https://www.python.org/dev/peps/pep-0008/) contains the official Python coding conventions.
+ - [Flake8](http://flake8.pycqa.org) is a popular, configurable tool comprising lint checks, PEP8 style compliance and optionally complexity analysis. [github](https://github.com/PyCQA/flake8)
  - [YAPF](https://github.com/google/yapf) "Yet Another Python Formatter" Auto-formats Python to style-guides (select from built-in styles PEP8(default), Google, Chromium, Facebook). Also customisable.
  [Try online](https://yapf.now.sh/)
  
