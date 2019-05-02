@@ -3,6 +3,7 @@ author: Stephen Hudson
 layout: single
 permalink: /tutorials/python-doc-sphinx/
 title: "Documentation with Sphinx"
+excerpt: "Creating documentation with Sphinx for Scientific Python projects"
 author_profile: true
 comments: true
 sidebar:

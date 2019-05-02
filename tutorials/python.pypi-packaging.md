@@ -3,6 +3,7 @@ author: Stephen Hudson
 layout: single
 permalink: /tutorials/python-pypi-packaging/
 title: "Python: Creating a pip installable package"
+excerpt: "Creating a pip installable package for PyPI"
 author_profile: true
 comments: true
 sidebar:

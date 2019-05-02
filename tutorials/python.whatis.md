@@ -5,6 +5,7 @@ permalink: /tutorials/python-whatis/
 title: "Python for HPC"
 author_profile: true
 comments: true
+excerpt: "Introduction to Python for HPC, for Scientists and Programmers"
 sidebar:
   nav: "content"
 ---

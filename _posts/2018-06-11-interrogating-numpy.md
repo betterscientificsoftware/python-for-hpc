@@ -4,6 +4,7 @@ title: "Obtaining Numpy Configuration"
 date: 2018-06-11
 comments: true
 tags: [numpy, configuration]
+excerpt: "Numpy configuration, compiler options, BLAS library"
 sidebar:
   nav: "content"
 ---
