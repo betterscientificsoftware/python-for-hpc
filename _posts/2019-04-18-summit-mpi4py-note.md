@@ -13,8 +13,6 @@ sidebar:
 mpi4py on Summit
 ================
 
-### Contributed by [Steve Hudson](https://github.com/shuds13)
-
 At time of writing (Feb 2019) I've found the following works for mpi4py on Python.
 
 The gcc/4.8.5 must be loaded (replacing xl compilers).
