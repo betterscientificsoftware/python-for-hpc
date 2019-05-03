@@ -2,6 +2,7 @@
 layout: single
 permalink: /python-for-hpc/
 title: "Python for HPC: ECP Community Materials"
+excerpt: "Python for Scientists and Programmers in High Performance Computing from clusters to Supercomputers"
 author_profile: false
 comments: true
 sidebar:

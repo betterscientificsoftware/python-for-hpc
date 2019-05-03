@@ -2,6 +2,7 @@
 layout: single
 permalink: /python-for-hpc/machine-learning/
 title: "Python for HPC: Machine Learning"
+excerpt: "Machine learning, deep learning and data science using Python"
 author_profile: false
 comments: true
 sidebar:
