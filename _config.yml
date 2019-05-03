@@ -111,7 +111,7 @@ author:
   bio              : "So my code will see the future"
   website          : "bssw.io"
   github           : "betterscientificsoftware/python-for-hpc"
-  slack            : "bssw-python"
+  slack            : "bssw-python"     
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -298,6 +298,7 @@ defaults:
       comments: true
       share: true
       related: true
+      classes: wide
 
   # _pages
   - scope:
