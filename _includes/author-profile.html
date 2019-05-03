@@ -266,6 +266,14 @@
         </li>
       {% endif %}
 
+      {% if author.contribute %}
+        <li>
+          <a href="https://github.com/betterscientificsoftware/python-for-hpc/blob/master/CONTRIBUTING.md" itemprop="sameAs" rel="nofollow noopener noreferrer">
+<!--             <i class="fas fa-arrow-circle-up" aria-hidden="true"></i> Contribute -->
+            <i class="fas fa-fw fa-file-upload" aria-hidden="true"></i> Contribute
+          </a>
+        </li>
+      {% endif %}
       {% include author-profile-custom-links.html %}
     </ul>
   </div>

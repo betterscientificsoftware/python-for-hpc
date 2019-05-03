@@ -112,6 +112,7 @@ author:
   website          : "bssw.io"
   github           : "betterscientificsoftware/python-for-hpc"
   slack            : "bssw-python"
+  contribute       : "Contribute"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -136,7 +137,8 @@ author:
     - label: "Discuss on Slack"
       icon: "fab fa-fw fa-slack"
     - label: "Contribute"
-      url: "https://github.com/betterscientificsoftware/python-for-hpc/blob/master/CONTRIBUTING.md"
+      icon: "fas fa-file-upload"
+      #url: "https://github.com/betterscientificsoftware/python-for-hpc/blob/master/CONTRIBUTING.md"
 # Site Footer
 footer:
   links:
