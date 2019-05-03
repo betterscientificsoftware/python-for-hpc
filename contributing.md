@@ -20,7 +20,7 @@ If you have suggested links, it is helpful to provide brief descriptions (senten
 
 I am happy to take pull requests.
 
-*Example: Adding a blog.*
+**Example:** Adding a blog.
 
 Take an article from the _posts directory to use as a template.
 
