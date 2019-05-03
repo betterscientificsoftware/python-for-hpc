@@ -1,18 +1,13 @@
 ---
 author: Stephen Hudson
+author_profile: true
 title: "Obtaining Numpy Configuration"
 date: 2018-06-11
-comments: true
 tags: [numpy, configuration]
 excerpt: "Numpy configuration, compiler options, BLAS library"
-classes: wide
 sidebar:
   nav: "content"
 ---
-
-<!-- # Obtaining NumPy build configuration. -->
-
-<!-- ### Contributed by [Steve Hudson](https://github.com/shuds13) -->
 
 NumPy is based on compiled C extensions and in turn is built upon BLAS/LAPACK libraries. The following gives some information on how to interrogate the build configuration and dependent libraries upon which NumPy is built.
 
@@ -68,23 +63,6 @@ William Scullin (ALCF), Matt Belhorn (OLCF), Rollin Thomas (NERSC)
 
 stackoverflow: [find-out-if-which-blas-library-is-used-by-numpy](https://stackoverflow.com/questions/37184618/find-out-if-which-blas-library-is-used-by-numpy)
 
-## Feedback
-
-Any feedback/corrections/additions are welcome:
-
- - Comment below or at: [slack](https://join.slack.com/t/bssw-python/shared_invite/enQtNDcxNDA3OTg0OTYwLTAyOGY0YjdhNDUzOTE1NGUwNGM4MDI1ZDQwY2U3OGY2NzQxZWE4ZDZiZjM2OTEzNDRkNDBkZTEyMDVlMDM2NTE)
- - Email: shudson@anl.gov
- - Or fork on [github](https://github.com/betterscientificsoftware/python-for-hpc) and make a pull request
 
 Back to [contents page]({{site.baseurl}}/python-for-hpc/)
 
-<!--Template to fill in from how-to example-->
-<!---
-Publish: yes
-Categories: development
-Topics: development, deployment
-Tags: bssw-article
-Level: 2???
-Prerequisites: default
-Aggregate: none???
---->

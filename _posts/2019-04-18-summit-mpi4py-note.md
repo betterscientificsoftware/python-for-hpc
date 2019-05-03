@@ -1,11 +1,10 @@
 ---
 author: Stephen Hudson
+author_profile: true
 title: "Using mpi4py on Summit"
 date: 2019-04-18
-comments: true
 tags: [mpi4py, summit]
 excerpt: "Using mpi4py on Summit"
-classes: wide
 sidebar:
   nav: "content"
 ---
