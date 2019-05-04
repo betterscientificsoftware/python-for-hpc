@@ -29,4 +29,4 @@ sidebar:
 
 ### Machine Learning at Scale
 
-[DeepHypre](https://deephyper.readthedocs.io/) Scalable Asynchronous Neural Architecture and Hyperparameter Search for Deep Neural Networks from Argonne [github](https://github.com/deephyper/deephyper)
+[DeepHypre](https://deephyper.readthedocs.io/) Scalable Asynchronous Neural Architecture and Hyperparameter Search for Deep Neural Networks from Argonne. DeepHypre is an [AutoML](https://www.automl.org/automl/) code. [github](https://github.com/deephyper/deephyper)
