@@ -27,4 +27,6 @@ sidebar:
 
 [Keras](https://keras.io/) Profoundly popular high-level neural networks API, written in Python and capable of running on top of TensorFlow, CNTK, or Theano. 
 
-[DeepHypre]
+### Machine Learning at Scale
+
+[DeepHypre](https://deephyper.readthedocs.io/) Scalable Asynchronous Neural Architecture and Hyperparameter Search for Deep Neural Networks from Argonne [github](https://github.com/deephyper/deephyper)
