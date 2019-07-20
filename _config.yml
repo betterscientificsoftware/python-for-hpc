@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Python for HPC: ECP Community Materials"
+title                    : "Python for HPC: Community Materials"
 title_separator          : "-"
 name                     : "Better Scientific Software"
 description              : "This site provides a combination of original resources and recommended links for Python users in the HPC and broader scientific community. It is part of the [Better Scientific Software](https://bssw.io/) initiative."

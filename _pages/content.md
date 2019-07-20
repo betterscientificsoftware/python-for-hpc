@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /python-for-hpc/
-title: "Python for HPC: ECP Community Materials"
+title: "Python for HPC: Community Materials"
 excerpt: "Python for Scientists and Programmers in High Performance Computing from clusters to Supercomputers"
 author_profile: false
 comments: true
@@ -10,7 +10,7 @@ sidebar:
 ---
 
 
-<!-- # Python for HPC: ECP Community Materials -->
+<!-- # Python for HPC: Community Materials -->
 
 ## Getting Started
 
