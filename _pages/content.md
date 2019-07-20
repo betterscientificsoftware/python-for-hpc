@@ -71,14 +71,20 @@ The Jupyter Notebook is an open-source web application that allows you to create
  - [Beginners Tutorial](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
  - [Beginner's Video](https://www.youtube.com/watch?v=HW29067qVWk&t=1009s)
 
-### Example: Python at Speed
+### NoteBook Example: Python at Speed
  - [Electrostatics loop example]({{site.baseurl}}/notebooks/Compiled_Examples.ipynb) A simple electrostatics loop implemented using pure Python, NumPy, Cython, Numba (inc GPU version) with timings. Contributed by Daniel Smith (MolSSI). [Notes on running]({{site.baseurl}}/notebooks/running-compiled-examples/)
  
-### Jupyter on Supercomputers
+### Jupyter on Supercomputers and Science Facilities
  
+There is currently lively discussion on use of Jupyter at Science centres.
+
+ - [(NEW) Jupyter for Science User Facilities and High Performance Computing](https://blog.jupyter.org/jupyter-for-science-user-facilities-and-high-performance-computing-de178106872){:target="_blank"} Blog entry by Rollin Thomas (Big Data Architect, NERSC) on supporting Jupyter at HPC centres and other scientific facilities. July 2019.
+ 
+ - [Jupyter Community Workshop (inc. presentations)](https://jupyter-workshop-2019.lbl.gov/agenda){:target="_blank"} Jupyter for Science User Facilities and High Performance Computing Workshops held in July 2019. [Media Spot](https://cs.lbl.gov/news-media/news/2019/jupyter-workshop-showcases-how-far-this-open-source-collaboration-has-come/){:target="_blank"}
+
 Some HPC centres now support running Jupyter notebooks on supercomputers. Accounts on these
 systems is required to access the Jupyterhub servers.
-
+ 
 ### Jupyter at NERSC
 
  - [Jupyter and HPC Webinar](https://www.exascaleproject.org/event/jupyter) Current State and Future Roadmap 2018. Includes information on NERSC's support for running notebooks on Cori.
