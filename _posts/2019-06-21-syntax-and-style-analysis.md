@@ -116,7 +116,7 @@ except:
     goodcode.py:2:10: F821 undefined name 'logging'
     goodcode.py:6:1: E722 do not use bare 'except'
     
-The whitespace issues have been fixed. The syntax problems remain (unwanted imports). Also note that the bare
+The whitespace issues have been fixed. The syntax problems remain (unused imports). Also note that the bare
 exception remains. Although counted as a style issue, the formatter lacks the information to fix it.
 
 

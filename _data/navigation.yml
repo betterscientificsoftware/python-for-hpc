@@ -1,7 +1,7 @@
 # Best to not edit navigation.yml, but run script make_contents.py along with navigation.tmpl
 # main links
 main:
-  - title: "Python for HPC"
+  - title: "Contents"
     url: /python-for-hpc/
   - title: "Blog"
     url: /blog/
