@@ -51,9 +51,11 @@ Discuss this page on [slack](https://join.slack.com/t/bssw-python/shared_invite/
  
 ### Coding Standards and Style
 
- - [PEP8](https://www.python.org/dev/peps/pep-0008/) contains the official Python coding conventions.
- - [Flake8](http://flake8.pycqa.org) is a popular, configurable tool comprising lint checks, PEP8 style compliance and optionally complexity analysis. [github](https://github.com/PyCQA/flake8)
- - [YAPF](https://github.com/google/yapf) "Yet Another Python Formatter" Auto-formats Python to style-guides (select from built-in styles PEP8(default), Google, Chromium, Facebook). Also customisable.
+ - [(NEW) Static analysis and style checking in Python packages]({{site.baseurl}}/syntax-and-style-analysis/){:target="_blank"} Blog entry - S. Hudson June 2019.
+
+ - [PEP 8](https://www.python.org/dev/peps/pep-0008/) contains the official Python coding conventions.
+ - [Flake8](http://flake8.pycqa.org) is a popular, configurable tool comprising lint checks, PEP8 style compliance and complexity analysis. [github](https://github.com/PyCQA/flake8)
+ - [YAPF](https://github.com/google/yapf) "Yet Another Python Formatter" Auto-formats Python to style-guides (select from built-in styles PEP 8(default), Google, Chromium, Facebook). Also customisable.
  [Try online](https://yapf.now.sh/)
  
 ### Design Patterns

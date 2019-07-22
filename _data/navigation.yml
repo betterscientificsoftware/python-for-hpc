@@ -8,16 +8,14 @@ main:
   - title: "About"
     url: /about/
 
-
-    
 content:
     - title: "Getting Started"
       children:
-      - title: "Quick-start Guides"
+      - title: "Quick-Start Guides"
         url: /python-for-hpc/#quick-start-guides
       - title: "Presentations and Webinars"
         url: /python-for-hpc/#presentations-and-webinars
-      - title: "Python resources for Scientists"
+      - title: "Python Resources for Scientists"
         url: /python-for-hpc/#python-resources-for-scientists
     - title: "Best Practices in Python"
       children:
@@ -31,10 +29,10 @@ content:
       children:
       - title: "Jupyter Notebooks"
         url: /python-for-hpc/#jupyter-notebooks
-      - title: "Example: Python at Speed"
-        url: /python-for-hpc/#example-python-at-speed
+      - title: "NoteBook Example: Python at Speed"
+        url: /python-for-hpc/#notebook-example-python-at-speed
       - title: "Jupyter on Supercomputers"
-        url: /python-for-hpc/#jupyter-on-supercomputers
+        url: /python-for-hpc/#jupyter-on-supercomputers-and-science-facilities
       - title: "Jupyter at NERSC"
         url: /python-for-hpc/#jupyter-at-nersc
       - title: "Jupyter at Argonne"
@@ -57,11 +55,11 @@ content:
         url: /python-for-hpc/#distributed-memory-parallelism
     - title: "Scientific Libraries for HPC"
       children:
-      - title: "Python Bindings to HPC libraries:"
+      - title: "Python Bindings to HPC Libraries:"
         url: /python-for-hpc/#python-bindings-to-hpc-libraries
-      - title: "I/O:"
-        url: /python-for-hpc/#io
-      - title: "Ensemble and Workflow tools"
+      - title: "I/O Libraries:"
+        url: /python-for-hpc/#io-libraries
+      - title: "Ensemble and Workflow Tools"
         url: /python-for-hpc/#ensemble-and-workflow-tools
     - title: "Other"
       children:
