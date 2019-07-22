@@ -6,6 +6,7 @@ title: "Python: Creating a pip installable package"
 excerpt: "Creating a pip installable package for PyPI"
 author_profile: true
 comments: true
+classes: wide
 sidebar:
   nav: "content"
 ---

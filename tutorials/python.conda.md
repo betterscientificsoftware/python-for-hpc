@@ -4,6 +4,7 @@ layout: single
 permalink: /tutorials/python-conda/
 title: "Conda and Anaconda"
 author_profile: true
+classes: wide
 comments: true
 excerpt: "Introduction to Conda and Anaconda for HPC Computer Scientists and Programmers"
 sidebar:
