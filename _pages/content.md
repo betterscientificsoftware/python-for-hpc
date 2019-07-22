@@ -173,11 +173,11 @@ These packages all involve creating compiled code from Python. This can be done 
 ### Conferences and Events
 
 **Upcoming:**
- - [SciPy 2019 Austin, Texas, July 8-14th](https://www.scipy2019.scipy.org/)
-
+ - [Open Data Science Conference (London) Nov 19-22 2019](https://odsc.com/london)
 
 **Previous Events:**
-
+ - [Jupyter Community Workshop 2019 (inc. presentations)](https://jupyter-workshop-2019.lbl.gov/agenda){:target="_blank"} Jupyter for Science User Facilities and High Performance Computing Workshops held in July 2019. 
+ - [SciPy 2019 Austin, Texas, July 8-14th](https://www.scipy2019.scipy.org/) [Videos](https://www.youtube.com/playlist?list=PLYx7XA2nY5GcDQblpQ_M1V3PQPoLWiDAC)
  - [SciPy 2018 Videos](https://www.youtube.com/playlist?list=PLYx7XA2nY5Gd-tNhm79CNMe_qvi35PgUR)
  - [ALCF Simulation, Data and Learning Workshop 2018](https://www.alcf.anl.gov/workshops/sdl-workshop-oct2018) Includes slides for many relevant presentations.
  - PyHPC Workshop 2018 (In conjunction with SC18) [Twitter page](https://twitter.com/pythonhpc?lang=en)
