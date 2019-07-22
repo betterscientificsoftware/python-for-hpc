@@ -1,7 +1,7 @@
 
 Stephen Hudson:
   name             : "Stephen Hudson"
-  avatar           : "images/photo_shudson_smart_head_1.jpg"
+  #avatar           : "images/photo_shudson_smart_head_1.jpg"
   bio              : "Software Developer at Argonne"
   location         : "Illinois, USA"
   email            : "shudson@anl.gov"
