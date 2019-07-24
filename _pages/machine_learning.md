@@ -21,11 +21,12 @@ sidebar:
 
 ### Python libraries
 
-[scikit-learn](https://scikit-learn.org) Immensely popular machine-learning Python library. [github](https://github.com/scikit-learn/scikit-learn).
+[scikit-learn](https://scikit-learn.org) Machine-learning Python library. [github](https://github.com/scikit-learn/scikit-learn).
 
-[Tensorflow](https://www.tensorflow.org/) Colossally popular library for Deep Learning. [github](https://github.com/tensorflow/tensorflow).
+[Tensorflow](https://www.tensorflow.org/) Library for Deep Learning. [github](https://github.com/tensorflow/tensorflow).
 
-[Keras](https://keras.io/) Profoundly popular high-level neural networks API, written in Python and capable of running on top of TensorFlow, CNTK, or Theano. 
+[Keras](https://keras.io/) Popular high-level neural networks API, written in Python and capable of running on top of TensorFlow, CNTK, or Theano. [github](https://github.com/keras-team/keras)
+
 
 ### Machine Learning at Scale
 

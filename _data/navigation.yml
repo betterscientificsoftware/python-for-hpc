@@ -61,6 +61,8 @@ content:
         url: /python-for-hpc/#io-libraries
       - title: "Ensemble and Workflow Tools"
         url: /python-for-hpc/#ensemble-and-workflow-tools
+      - title: "Machine Learning and Data Science"
+        url: /python-for-hpc/machine-learning
     - title: "Other"
       children:
       - title: "Conferences and Events"
