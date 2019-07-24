@@ -9,6 +9,12 @@ sidebar:
 
 ## In the Spotlight ...
 
+### Featured Blog:
+
+[(NEW) Jupyter for Science User Facilities and High Performance Computing](https://blog.jupyter.org/jupyter-for-science-user-facilities-and-high-performance-computing-de178106872){:target="_blank"} Blog entry by Rollin Thomas (Big Data Architect, NERSC) on supporting Jupyter at HPC centres and other scientific facilities. July 2019.
+
+---
+
 ### Featured Notebook:
 
 Try out simple number crunching code in Python, NumPy, Cython, Numba (inc GPU version) with timings.

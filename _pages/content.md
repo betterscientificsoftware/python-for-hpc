@@ -128,12 +128,13 @@ These packages all involve creating compiled code from Python. This can be done 
  - Recommended reading: [Python modules in C](http://dan.iel.fm/posts/python-c-extensions)
 
 ### Python on Accelerators
- - [Numba](https://numba.pydata.org/) supports GPUS (see description above). 
+ - [Numba](https://numba.pydata.org/) supports GPUS (see description above). [github](https://github.com/numba/numba)
+ - [CuPy](https://cupy.chainer.org/) NumPy-like API accelerated with CUDA. "CuPy's interface is highly compatible with NumPy; in most cases it can be used as a drop-in replacement. All you need to do is just replace numpy with cupy in your Python code." [github](https://github.com/cupy/cupy)
+ 
  - [PyCUDA](https://documen.tician.de/pycuda/tutorial.html)
    PyCUDA lets you access Nvidia's CUDA parallel computation API from Python.
  - [PyOpenCL](https://documen.tician.de/pyopencl/index.html)
    PyOpenCL lets you access the OpenCL parallel computation API from Python
- - [CuPy](https://cupy.chainer.org/) NumPy-like API accelerated with CUDA) [github](https://github.com/cupy/cupy)
 
 
  
