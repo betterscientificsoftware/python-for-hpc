@@ -130,17 +130,17 @@ Intel Conda packages include NumPy and SciPy based on MKL.
 Note that the Intel compiler is not included in the Intel Conda packages. These packages will generally work with gcc and this may be worthwhile for picking up, for example, the MKL library. If an Intel compiler is not available on the system, the default gcc compiler will be used.
 
 
-## Changing conda environment locations
+## Changing Conda environment locations
 
 On some systems you may which to have Python packages on a particular filesystem. Perhaps one optimized for parallel
-Python, or in a shared location. The best way to do this is to change the Conda environment path in your ~/.condarc file. E.g Add the following lines:
+Python, or in a shared location. The best way to do this is to change the Conda environment path in your `~/.condarc` file. E.g.~ Add the following lines:
 
     envs_dirs:
     - /path/to/my/conda_envs
     env_prompt: ({name})
 
-If you want to have Conda search your default ~/.conda/ directory for environments also, then add this under envs_dirs as
-well.  The env_prompt line ensures the whole directory path is not pre-pended to your prompt (The `name` here is literal, do not substitute).
+If you want to have Conda search your default `~/.conda/` directory for environments also, then add this under envs_dirs as
+well.  The env_prompt line ensures the whole directory path is not pre-pended to your prompt (The `({name})` here is literal, do not substitute).
 
 
 ## Revisions
