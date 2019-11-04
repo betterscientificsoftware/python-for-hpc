@@ -56,6 +56,12 @@ If NumPy has been installed without modification it will likely inherit the conf
     from distutils import sysconfig
     sysconfig.get_config_vars()
 
+To obtain versions of compiler used to build python/numpy, the strings utility can be used as with other binaries to give an indication of build E.g:
+
+    strings -a /<path_to_python>/python | grep -i gcc
+    strings -a /<path_to_site-packages>/numpy/core/multiarray*.so | grep -i gcc
+
+
 ## References
 
 Python for High Performance Computing (Exascale Computing Project 2nd Annual Meeting) [Slides](https://github.com/wscullin/ecp_python_tutorial/blob/master/slides/ECP_Python_Tutorial_2018.pdf)
