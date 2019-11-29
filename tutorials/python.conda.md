@@ -70,7 +70,7 @@ One answer to this is to try to install packages in one line as follows:
 
     conda install petsc mpi4py openmpi
 
-If this does not work, then sometimes combining source distributions with Conda can be used to create customized builds.
+This will only work if required dependencies for each package can be satisfied. If this is not the case, then sometimes combining source distributions with Conda can be used to create customized builds.
 
 When installing on a system with an existing MPI, such as a cluster, then it is highly recommended that mpi4py is installed on top of the system MPI. This can be done in the Conda environment using pip install as follows:
 
@@ -152,6 +152,7 @@ Another useful feature is revisions. Each time your Conda environment is changed
 
 Any feedback/corrections/additions are welcome:
 
+ - If this was helpful, please leave a **star** on the [github](https://github.com/betterscientificsoftware/python-for-hpc) page.
  - Comment below or at: [slack](https://join.slack.com/t/bssw-python/shared_invite/enQtNDcxNDA3OTg0OTYwLTAyOGY0YjdhNDUzOTE1NGUwNGM4MDI1ZDQwY2U3OGY2NzQxZWE4ZDZiZjM2OTEzNDRkNDBkZTEyMDVlMDM2NTE)
  - Email: shudson@anl.gov
  - Or fork on [github](https://github.com/betterscientificsoftware/python-for-hpc) and make a pull request

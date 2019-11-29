@@ -286,6 +286,7 @@ More info at official [webpage](http://www.sphinx-doc.org)
 
 Any feedback/corrections are welcome: shudson@anl.gov
 
+ - If this was helpful, please leave a **star** on the [github](https://github.com/betterscientificsoftware/python-for-hpc) page.
  - Comment below or at: [slack](https://join.slack.com/t/bssw-python/shared_invite/enQtNDcxNDA3OTg0OTYwLTAyOGY0YjdhNDUzOTE1NGUwNGM4MDI1ZDQwY2U3OGY2NzQxZWE4ZDZiZjM2OTEzNDRkNDBkZTEyMDVlMDM2NTE)
  - Email: shudson@anl.gov
  - Or fork on [github](https://github.com/betterscientificsoftware/python-for-hpc) and make a pull request
