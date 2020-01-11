@@ -9,9 +9,20 @@ sidebar:
 
 ## In the Spotlight ...
 
+
+### Featured Event:
+
+***SciPy 2020***
+*Austin, Texas, July 6-12th*
+[SciPy 2020 has added a High Performance Python track]({{site.baseurl}}/scipy-hpc-track)
+
+
 ### Featured Blog:
 
 [(NEW) Jupyter for Science User Facilities and High Performance Computing](https://blog.jupyter.org/jupyter-for-science-user-facilities-and-high-performance-computing-de178106872){:target="_blank"} Blog entry by Rollin Thomas (Big Data Architect, NERSC) on supporting Jupyter at HPC centres and other scientific facilities. July 2019.
+
+- [Jupyter at HPC Centres]({{site.baseurl}}/python-for-hpc/#jupyter-notebooks){:target="_blank"}
+
 
 ---
 
@@ -58,17 +69,7 @@ Try out simple number crunching code in Python, NumPy, Cython, Numba (inc GPU ve
 
  - [Webinar Page](https://www.exascaleproject.org/event/python-in-hpc-2){:target="_blank"}
 
----
 
-
-### Featured Event:
-
-***SciPy 2019***  
-*Austin, Texas, July 8-14th*
-
-[<img src="images/Scipy_Conference_2019.png">](https://www.scipy2019.scipy.org/){:target="_blank"}
-
-The annual SciPy Conference brings together over 800 participants from industry, academia, and government to showcase their latest projects, learn from skilled users and developers, and collaborate on code development.
 
 ---
 
