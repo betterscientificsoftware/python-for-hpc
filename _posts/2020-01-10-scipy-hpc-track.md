@@ -41,7 +41,7 @@ spreading the word!
 
 Here are some topics we will highlight during the track
 
-* Python performance optimizationZZ
+* Python performance optimization
 * Strategies to run Python at large scale
 * Methods to enable Python on many diverse architectures, especially GPUs
 
