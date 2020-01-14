@@ -9,6 +9,7 @@ sidebar:
   nav: "content"
 ---
 
+#### Contributed by Laurie Stephey (NERSC)
 
 What is SciPy?
 --------------
