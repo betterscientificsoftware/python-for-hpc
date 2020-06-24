@@ -50,14 +50,14 @@ If you do not have an environment module system installed, you may need to insta
     spack load lmod
 
 
-*Note* An alternative to the recursive module load is to use [Spack views](https://spack.readthedocs.io/en/latest/workflows.html#filesystem-views).
+**Note** An alternative to the recursive module load is to use [Spack views](https://spack.readthedocs.io/en/latest/workflows.html#filesystem-views).
 
 
 ## Using system installed Python
 
 Many systems will have a Python module, which will supply a Python distribution, perhaps through a Conda environment.
 
-I recommend using this Python within your `~/.spack/packages.yaml` file. Packages that come with this Python distribution (e.g. Numpy) can also be supplied. These files are used to specify dependencies that Spack must obtain from the given system (rather than building from scratch).  E.g. to use the modules on [Theta](https://www.alcf.anl.gov/support-center/theta) the `packages.yaml` may include:
+I recommend specifying the module supplied Python within your `~/.spack/packages.yaml` file. Packages included with this Python distribution (e.g. Numpy) can also be supplied. This file is used to specify dependencies that Spack must obtain from the given system (rather than building from scratch).  E.g. to use the modules on [Theta](https://www.alcf.anl.gov/support-center/theta) the `packages.yaml` may include:
 
 ```yaml
 packages:
