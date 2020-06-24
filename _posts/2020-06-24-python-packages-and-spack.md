@@ -29,7 +29,7 @@ When the `spack install` command is executed, modules are created for each packa
 
     spack find --paths
 
-Having installed your package, you can resursively load your modules with one command. But first you must have Spack's shell commands enabled:
+Having installed your package, you can recursively load your modules with one command. But first you must have Spack's shell commands enabled:
 
     . $SPACK_ROOT/share/spack/setup-env.sh
 
@@ -92,7 +92,7 @@ packages:
         buildable: False
 ```
 
-It is also recommended to use `packages.yaml` for other build tools (eg. cmake) and the MPI libraries for your system.
+It is also recommended to use `packages.yaml` to specify the MPI libraries for your system.
 To see the concretized specification (and which packages are already installed):
 
     spack spec --install-status py-libensemble
