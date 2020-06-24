@@ -97,7 +97,7 @@ To see the concretized specification (and which packages are already installed):
 
     spack spec --install-status py-libensemble
 
-Spack packages come with variants. Note that some packages have an MPI. In some cases, the serial version may require turning off sub-variants. For example to build a simple serial version of PETSc with petsc4py:
+Spack packages come with variants. Note that some packages have an MPI variant; usually enabled by default. In some cases, the serial version may require turning off sub-variants. For example to build a simple serial version of PETSc with petsc4py:
 
     spack install py-petsc4py~mpi ^petsc~mpi~hdf5~hypre~superlu-dist
 
