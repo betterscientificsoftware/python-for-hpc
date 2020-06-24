@@ -10,9 +10,9 @@ sidebar:
 ---
 
 
-## Cloning Spack
+## Obtaining Spack
 
-To get a clone of Spack and start building see the [Spack getting started guide](https://spack.readthedocs.io/en/latest/getting_started.html)
+To obtain the Spack distribution and start installing packages, see the [Spack getting started guide](https://spack.readthedocs.io/en/latest/getting_started.html)
 
 An example of how to get spack and maintain a forked repository is [here](https://libensemble.readthedocs.io/en/master/dev_guide/release_management/release_platforms/rel_spack.html).
 
