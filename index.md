@@ -12,14 +12,14 @@ sidebar:
 
 ### Featured Event:
 
-***SciPy 2020***
-*Austin, Texas, July 6-12th*
-[SciPy 2020 has added a High Performance Python track]({{site.baseurl}}/scipy-hpc-track)
+***SciPy 2021***
+*Scientific Computing with Python July 12-18*
+[SciPy 2021 will be a virtual event](https://www.scipy2021.scipy.org/)
 
 
 ### Featured Blog:
 
-[(NEW) Jupyter for Science User Facilities and High Performance Computing](https://blog.jupyter.org/jupyter-for-science-user-facilities-and-high-performance-computing-de178106872){:target="_blank"} Blog entry by Rollin Thomas (Big Data Architect, NERSC) on supporting Jupyter at HPC centres and other scientific facilities. July 2019.
+[(NEW) Jupyter for Science User Facilities and High Performance Computing](https://blog.jupyter.org/jupyter-for-science-user-facilities-and-high-performance-computing-de178106872){:target="_blank"} Blog entry by Rollin Thomas (Big Data Architect, NERSC) on supporting Jupyter at HPC centres and other scientific facilities
 
 - [Jupyter at HPC Centres]({{site.baseurl}}/python-for-hpc/#jupyter-notebooks){:target="_blank"}
 
