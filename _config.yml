@@ -112,7 +112,6 @@ author:
   bio              : "So my code will see the future"
   website          : "bssw.io"
   github           : "betterscientificsoftware/python-for-hpc"
-  slack            : "bssw-python"
   contribute       : "Contribute"
   links:
     - label: "Email"
@@ -135,8 +134,6 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-    - label: "Discuss on Slack"
-      icon: "fab fa-fw fa-slack"
     - label: "Contribute"
       icon: "fas fa-file-upload"
       #url: "https://github.com/betterscientificsoftware/python-for-hpc/blob/master/CONTRIBUTING.md"

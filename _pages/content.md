@@ -17,8 +17,6 @@ sidebar:
 This site provides a combination of original resources and recommended links for Python users in
 the ECP and broader scientific community. It is part of the [Better Scientific Software](https://bssw.io/) initiative.
 
-Discuss this page on [slack](https://join.slack.com/t/bssw-python/shared_invite/enQtNDcxNDA3OTg0OTYwLTAyOGY0YjdhNDUzOTE1NGUwNGM4MDI1ZDQwY2U3OGY2NzQxZWE4ZDZiZjM2OTEzNDRkNDBkZTEyMDVlMDM2NTE)
-
 ### Quick-Start Guides
  - [Python for HPC]({{site.baseurl}}/tutorials/python-whatis/)
  - [Creating a PYPI package]({{site.baseurl}}/tutorials/python-pypi-packaging/)
@@ -196,7 +194,7 @@ Find more software engineering materials for computational scientists at the [Be
 
 Any feedback/corrections/additions are welcome:
 
- - Comment below or at: [slack](https://join.slack.com/t/bssw-python/shared_invite/enQtNDcxNDA3OTg0OTYwLTAyOGY0YjdhNDUzOTE1NGUwNGM4MDI1ZDQwY2U3OGY2NzQxZWE4ZDZiZjM2OTEzNDRkNDBkZTEyMDVlMDM2NTE)
+ - Leave a comment below.
  - Email: shudson@anl.gov
  - Or fork on [github](https://github.com/betterscientificsoftware/python-for-hpc) and make a pull request
 
