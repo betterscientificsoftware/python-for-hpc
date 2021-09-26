@@ -106,7 +106,7 @@ The ALCF (Argonne Leadship Computing Facility) now supports Notebooks on Theta a
 ### Scientific Computing Packages:
  - [NumPy](http://www.numpy.org/) NumPy is the fundamental package for scientific computing with Python.
  - [SciPy](https://www.scipy.org/) A Python-based ecosystem of open-source software for mathematics, science, and engineering. Now incorporates: Numpy, the SciPy library, Matplotlib, IPython, SymPy and Pandas.
- 
+ - [(NEW) SymPy examples used for deriving equations](https://github.com/QMCPACK/qmc_algorithms){:target="_blank"} for code generation and testing by Mark Dewing.
 ### Speeding up Python
 
 These packages all involve creating compiled code from Python. This can be done using packages such as [NumPy and SciPy](#scientific-programming-in-python). Alternatively, you can use tools to compile Python code. Some popular ones are given below.
