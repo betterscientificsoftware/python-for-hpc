@@ -10,29 +10,21 @@ sidebar:
 ## In the Spotlight ...
 
 
-### Featured Event:
-
-***SciPy 2021***
-*Scientific Computing with Python July 12-18*
-[SciPy 2021 will be a virtual event](https://www.scipy2021.scipy.org/)
-
-
-### Featured Blog:
-
-[(NEW) Jupyter for Science User Facilities and High Performance Computing](https://blog.jupyter.org/jupyter-for-science-user-facilities-and-high-performance-computing-de178106872){:target="_blank"} Blog entry by Rollin Thomas (Big Data Architect, NERSC) on supporting Jupyter at HPC centres and other scientific facilities
-
-- [Jupyter at HPC Centres]({{site.baseurl}}/python-for-hpc/#jupyter-notebooks){:target="_blank"}
-
-
----
-
 ### Featured Notebook:
 
 Try out simple number crunching code in Python, NumPy, Cython, Numba (inc GPU version) with timings.
  - [Notebook]({{site.baseurl}}/notebooks/Compiled_Examples.ipynb)
  - New to Jupyter? [How to get it running]({{site.baseurl}}/notebooks/running-compiled-examples/){:target="_blank"}
 
- Contributed by Daniel Smith (MolSSI). 
+ Contributed by Daniel Smith (MolSSI).
+
+---
+
+### Featured Blog:
+
+[(NEW) Jupyter for Science User Facilities and High Performance Computing](https://blog.jupyter.org/jupyter-for-science-user-facilities-and-high-performance-computing-de178106872){:target="_blank"} Blog entry by Rollin Thomas (Big Data Architect, NERSC) on supporting Jupyter at HPC centres and other scientific facilities
+
+- [Jupyter at HPC Centres]({{site.baseurl}}/python-for-hpc/#jupyter-notebooks){:target="_blank"}
 
 ---
 
