@@ -77,20 +77,24 @@ For example, if you have an activated Conda environment with Python 3.7 and SciP
 
 ```yaml
 packages:
-    packages:
-      python:
-        paths:
-          python: $CONDA_PREFIX
-        buildable: False
-      py-numpy:
-        paths:
-          py-numpy: $CONDA_PREFIX/lib/python3.7/site-packages/numpy
-        buildable: False
-      py-scipy:
-        paths:
-          py-scipy: $CONDA_PREFIX/lib/python3.7/site-packages/scipy
-        buildable: False
+  python:
+    buildable: false
+    externals:
+    - spec: python@3.7
+      prefix: $CONDA_PREFIX
+  py-numpy:
+    buildable: false
+    externals:
+    - spec: py-numpy@3.7
+      prefix: $CONDA_PREFIX/lib/python3.7/site-packages/numpy
+  py-scipy:
+    buildable: false
+    externals:
+    - spec: py-scipy@3.7
+      prefix: $CONDA_PREFIX/lib/python3.7/site-packages/scipy
 ```
+
+**Note** The above was updated for the new format in 2021.
 
 It is also recommended to use `packages.yaml` to specify the MPI libraries for your system.
 To see the concretized specification (and which packages are already installed):
