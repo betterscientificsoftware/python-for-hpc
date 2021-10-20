@@ -73,7 +73,10 @@ packages:
 
 **Hint**: Alternatively, you can access your Conda Python and built-in packages in your
 `~/.spack/packages.yaml` while your Conda environment is activated, using ``CONDA_PREFIX``
-For example, if you have an activated Conda environment with Python 3.7 and SciPy installed:
+For example, if you have an activated Conda environment with Python 3.7 and SciPy installed.
+
+**Note** The use of `$CONDA_PREFIX` in the packages.yaml no longer works, so you need to get
+the path from `$CONDA_PREFIX` first and substitute below in `packages.yaml`:
 
 ```yaml
 packages:
@@ -93,8 +96,6 @@ packages:
     - spec: py-scipy@3.7
       prefix: $CONDA_PREFIX/lib/python3.7/site-packages/scipy
 ```
-
-**Note** The above was updated for the new format in 2021.
 
 It is also recommended to use `packages.yaml` to specify the MPI libraries for your system.
 To see the concretized specification (and which packages are already installed):
