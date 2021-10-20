@@ -75,7 +75,7 @@ packages:
 `~/.spack/packages.yaml` while your Conda environment is activated, using ``CONDA_PREFIX``
 For example, if you have an activated Conda environment with Python 3.7 and SciPy installed.
 
-**Note** The use of `$CONDA_PREFIX` in the packages.yaml no longer works, so you need to get
+**Note**: The use of `$CONDA_PREFIX` in the packages.yaml no longer works, so you need to get
 the path from `$CONDA_PREFIX` first and substitute below in `packages.yaml`:
 
 ```yaml
@@ -105,6 +105,4 @@ To see the concretized specification (and which packages are already installed):
 Spack packages come with variants. Note that some packages have an MPI variant; usually enabled by default. In some cases, the serial version may require turning off sub-variants. For example to build a simple serial version of PETSc with petsc4py:
 
     spack install py-petsc4py~mpi ^petsc~mpi~hdf5~hypre~superlu-dist
-
-
 
