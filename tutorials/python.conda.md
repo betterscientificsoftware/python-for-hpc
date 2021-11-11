@@ -26,7 +26,7 @@ The Conda products form a free cross-platform package management system created 
  - Miniconda includes a much smaller set of core packages along with Conda. 
 
 
-Miniconda still has access to the Anaconda repository on-line, and other repositories of Conda packages including the community driven conda-forge, and these can easily be installed at the command line. Intel also provides high performance variants of many packages accessible through Conda. This includes the NumPy and SciPy packages built upon MKL.
+Miniconda still has access to the Anaconda repository on-line, and other repositories of Conda packages including the community driven `conda-forge`, and these can easily be installed at the command line. Intel also provides high performance variants of many packages accessible through Conda. This includes the NumPy and SciPy packages built upon MKL.
 
 While Conda packages are a binary distribution allowing very fast installation, other forms of installation are supported inside Conda environments, including pip. Any source installation can also be performed inside the Conda virtual environment. Each package installs along with a list of dependent packages by default.
 
@@ -34,11 +34,11 @@ Conda environments are an alternative to other python virtual environment manage
 
 Ananconda is provided on many major computing platforms, generally requiring loading of an environment module or equivalent.
 
-Miniconda is ideal for personal use on standalone systems and for using with on-line CI tools such as Travis. It's fast due to binary installation and usually quite simple (unless you have dependency issues – see below). The libEnsemble package has an [example of using Conda with Travis](https://github.com/Libensemble/libensemble/blob/master/.travis.yml)
+Miniconda is ideal for personal use on standalone systems and for using with on-line CI tools such as Travis or GitHub Actions. It's fast due to binary installation and usually quite simple (unless you have dependency issues – see below). The libEnsemble package has an [example of using Conda with Travis]({{site.baseurl}}/examples/.travis.yml){:target="_blank"}
 
 Further resources:
 
-Download [Anaconda](www.anaconda.com/download)
+Download [Anaconda](https://www.anaconda.com/products/individual)
 
 Download [Miniconda](https://conda.io/miniconda.html)
 
