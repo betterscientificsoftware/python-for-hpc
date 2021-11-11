@@ -34,7 +34,7 @@ Conda environments are an alternative to other python virtual environment manage
 
 Ananconda is provided on many major computing platforms, generally requiring loading of an environment module or equivalent.
 
-Miniconda is ideal for personal use on standalone systems and for using with on-line CI tools such as Travis or GitHub Actions. It's fast due to binary installation and usually quite simple (unless you have dependency issues – see below). The libEnsemble package has an [example of using Conda with Travis]({{site.baseurl}}/examples/.travis.yml){:target="_blank"}
+Miniconda is ideal for personal use on standalone systems and for using with on-line CI tools such as Travis or GitHub Actions. It's fast due to binary installation and usually quite simple (unless you have dependency issues – see below). The libEnsemble package has an [example of using Conda with Travis]({{site.baseurl}}/examples/travis.yml){:target="_blank"}
 
 Further resources:
 
