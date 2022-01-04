@@ -35,11 +35,11 @@ Having installed your package, you can recursively load your modules with one co
 
 Now load the package modules:
 
-    spack load -r py-libensemble
+    spack load py-libensemble
 
 This will bring py-libensemble and all Python package dependencies into your `PYTHONPATH`. If you have more than one variant of the package, specify the abbreviated hash with a forward slash. E.g:
 
-    spack load -r py-libensemble /j4zmggq
+    spack load py-libensemble /j4zmggq
 
 Any Python packages will be added to the PYTHONPATH, when the modules are loaded.
 
