@@ -50,7 +50,7 @@ If you do not have an environment module system installed, you may need to insta
     spack load lmod
 
 
-**Note** An alternative to the recursive module load is to use [Spack views](https://spack.readthedocs.io/en/latest/workflows.html#filesystem-views).
+**Note** An alternative to the recursive module load is to use [Spack views](https://spack.readthedocs.io/en/latest/workflows.html#filesystem-views). Also note that using a [Spack environment](https://spack.readthedocs.io/en/latest/environments.html) will automatically create a view.
 
 
 ## Using system installed Python
